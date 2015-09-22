@@ -1,0 +1,41 @@
+<templateSet group="Wordpress">
+  <template name="wp_postgen" value="// Register $post_name$ Post Type $text_domain$&#10;function $type$_post_type() {&#10;&#10;&#9;$labels = array(&#10;&#9;&#9;'name'                =&gt; _x( '$post_name$', '$post_name$ General Name', '$text_domain$' ),&#10;&#9;&#9;'singular_name'       =&gt; _x( '$post_name$', '$post_name$ Singular Name', '$text_domain$' ),&#10;&#9;&#9;'menu_name'           =&gt; __( '$post_name$', '$text_domain$' ),&#10;&#9;&#9;'name_admin_bar'      =&gt; __( '$post_name$', '$text_domain$' ),&#10;&#9;&#9;'parent_item_colon'   =&gt; __( 'Parent Item:', '$text_domain$' ),&#10;&#9;&#9;'all_items'           =&gt; __( 'All Items', '$text_domain$' ),&#10;&#9;&#9;'add_new_item'        =&gt; __( 'Add New Item', '$text_domain$' ),&#10;&#9;&#9;'add_new'             =&gt; __( 'Add New', '$text_domain$' ),&#10;&#9;&#9;'new_item'            =&gt; __( 'New Item', '$text_domain$' ),&#10;&#9;&#9;'edit_item'           =&gt; __( 'Edit Item', '$text_domain$' ),&#10;&#9;&#9;'update_item'         =&gt; __( 'Update Item', '$text_domain$' ),&#10;&#9;&#9;'view_item'           =&gt; __( 'View Item', '$text_domain$' ),&#10;&#9;&#9;'search_items'        =&gt; __( 'Search Item', '$text_domain$' ),&#10;&#9;&#9;'not_found'           =&gt; __( 'Not found', '$text_domain$' ),&#10;&#9;&#9;'not_found_in_trash'  =&gt; __( 'Not found in Trash', '$text_domain$' ),&#10;&#9;);&#10;&#9;$args = array(&#10;&#9;&#9;'label'               =&gt; __( '$post_name$', '$text_domain$' ),&#10;&#9;&#9;'description'         =&gt; __( '$post_name$ Description', '$text_domain$' ),&#10;&#9;&#9;'labels'              =&gt; $labels,&#10;&#9;&#9;'supports'            =&gt; array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'trackbacks', 'revisions', 'custom-fields', 'page-attributes', 'post-formats', ),&#10;&#9;&#9;'taxonomies'          =&gt; array( 'category', 'post_tag' ),&#10;&#9;&#9;'hierarchical'        =&gt; false,&#10;&#9;&#9;'public'              =&gt; true,&#10;&#9;&#9;'show_ui'             =&gt; true,&#10;&#9;&#9;'show_in_menu'        =&gt; true,&#10;&#9;&#9;'menu_position'       =&gt; 5,&#10;&#9;&#9;'show_in_admin_bar'   =&gt; true,&#10;&#9;&#9;'show_in_nav_menus'   =&gt; true,&#10;&#9;&#9;'can_export'          =&gt; true,&#10;&#9;&#9;'has_archive'         =&gt; true,&#9;&#9;&#10;&#9;&#9;'exclude_from_search' =&gt; false,&#10;&#9;&#9;'publicly_queryable'  =&gt; true,&#10;&#9;&#9;'capability_type'     =&gt; 'page',&#10;&#9;);&#10;&#9;register_post_type( '$type$', $args );&#10;&#10;}&#10;add_action( 'init', '$type$_post_type', 0 );" description="Wordpress Post Type Generator" toReformat="true" toShortenFQNames="true">
+    <variable name="post_name" expression="capitalize(String)" defaultValue="" alwaysStopAt="false" />
+    <variable name="type" expression="capitalize(String)" defaultValue="" alwaysStopAt="false" />
+    <variable name="text_domain" expression="capitalize(String)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="wp_taxgen" value="// Register $taxonomies$ Taxonomy&#10;function $taxonomy$_taxonomy() {&#10;&#10;&#9;$labels = array(&#10;&#9;&#9;'name'                       =&gt; _x( '$taxonomies$', '$taxonomies$ General Name', '$text_domain$' ),&#10;&#9;&#9;'singular_name'              =&gt; _x( '$taxonomies$', '$taxonomies$ Singular Name', '$text_domain$' ),&#10;&#9;&#9;'menu_name'                  =&gt; __( '$taxonomies$', '$text_domain$' ),&#10;&#9;&#9;'all_items'                  =&gt; __( 'All Items', '$text_domain$' ),&#10;&#9;&#9;'parent_item'                =&gt; __( 'Parent Item', '$text_domain$' ),&#10;&#9;&#9;'parent_item_colon'          =&gt; __( 'Parent Item:', '$text_domain$' ),&#10;&#9;&#9;'new_item_name'              =&gt; __( 'New Item Name', '$text_domain$' ),&#10;&#9;&#9;'add_new_item'               =&gt; __( 'Add New Item', '$text_domain$' ),&#10;&#9;&#9;'edit_item'                  =&gt; __( 'Edit Item', '$text_domain$' ),&#10;&#9;&#9;'update_item'                =&gt; __( 'Update Item', '$text_domain$' ),&#10;&#9;&#9;'view_item'                  =&gt; __( 'View Item', '$text_domain$' ),&#10;&#9;&#9;'separate_items_with_commas' =&gt; __( 'Separate items with commas', '$text_domain$' ),&#10;&#9;&#9;'add_or_remove_items'        =&gt; __( 'Add or remove items', '$text_domain$' ),&#10;&#9;&#9;'choose_from_most_used'      =&gt; __( 'Choose from the most used', '$text_domain$' ),&#10;&#9;&#9;'popular_items'              =&gt; __( 'Popular Items', '$text_domain$' ),&#10;&#9;&#9;'search_items'               =&gt; __( 'Search Items', '$text_domain$' ),&#10;&#9;&#9;'not_found'                  =&gt; __( 'Not Found', '$text_domain$' ),&#10;&#9;);&#10;&#9;$args = array(&#10;&#9;&#9;'labels'                     =&gt; $labels,&#10;&#9;&#9;'hierarchical'               =&gt; false,&#10;&#9;&#9;'public'                     =&gt; true,&#10;&#9;&#9;'show_ui'                    =&gt; true,&#10;&#9;&#9;'show_admin_column'          =&gt; true,&#10;&#9;&#9;'show_in_nav_menus'          =&gt; true,&#10;&#9;&#9;'show_tagcloud'              =&gt; true,&#10;&#9;);&#10;&#9;register_taxonomy( 'taxonomy', array( '$link_to_post_type$' ), $args );&#10;&#10;}&#10;add_action( 'init', '$taxonomy$_taxonomy', 0 );" description="Wordpress Taxonomy Generator" toReformat="true" toShortenFQNames="true">
+    <variable name="taxonomies" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="taxonomy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="text_domain" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="link_to_post_type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="wp_menugen" value="// Register Navigation Menus&#10;function $custom_navigation$_menus() {&#10;&#10;&#9;$locations = array(&#10;&#9;&#9;'$menu_name$' =&gt; __( '$menu_description$', '$text_domain$' ),&#10;&#9;);&#10;&#9;register_nav_menus( $locations );&#10;&#10;}&#10;add_action( 'init', '$custom_navigation$_menus' );" description="Wordpress Menu Generator" toReformat="true" toShortenFQNames="true">
+    <variable name="custom_navigation" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="menu_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="menu_description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="text_domain" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="wp_sidebargen" value="// Register Sidebars&#10;function $custom$_sidebars() {&#10;&#10;&#9;$args = array(&#10;&#9;&#9;'id'            =&gt; '$id$',&#10;&#9;&#9;'class'         =&gt; '$class$',&#10;&#9;&#9;'name'          =&gt; __( '$name$', '$text_domain$' ),&#10;&#9;&#9;'description'   =&gt; __( '$description$', '$text_domain$' ),&#10;&#9;&#9;'before_title'  =&gt; '&lt;$title_wrap$&gt;',&#10;&#9;&#9;'after_title'   =&gt; '&lt;/$title_wrap$&gt;',&#10;&#9;&#9;'before_widget' =&gt; '&lt;$widget_wrap$&gt;',&#10;&#9;&#9;'after_widget'  =&gt; '&lt;/$widget_wrap$&gt;',&#10;&#9;);&#10;&#9;register_sidebar( $args );&#10;&#10;}&#10;add_action( 'widgets_init', '$custom$_sidebars' );" description="Wordpress Sidebar Generator" toReformat="true" toShortenFQNames="true">
+    <variable name="custom" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="text_domain" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title_wrap" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="widget_wrap" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

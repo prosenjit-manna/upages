@@ -1,0 +1,24 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="File '/home/jazzman/www/lampstack/apps/wordpress/htdocs/wp-content/plugins/paid-memberships-pro/pages/popup-cvv.html'" />
+    <option name="defaultScopeName" value="File '/home/jazzman/www/lampstack/apps/wordpress/htdocs/wp-content/plugins/paid-memberships-pro/pages/popup-cvv.html'" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="File '/home/jazzman/www/lampstack/apps/wordpress/htdocs/wp-content/plugins/paid-memberships-pro/pages/popup-cvv.html'" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.mxml</mask>
+      <mask>*.php, *.tpl</mask>
+      <mask>*.php, *.tpl,*.js</mask>
+      <mask>*.html</mask>
+      <mask>*.tpl</mask>
+      <mask>*.css</mask>
+      <mask>*.js</mask>
+      <mask>*.php</mask>
+    </recentFileMasks>
+  </component>
+</application>
