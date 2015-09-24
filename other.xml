@@ -90,6 +90,23 @@
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="true" />
     <option name="RENAME_SEARCH_NON_CODE_FOR_VARIABLE" value="true" />
   </component>
+  <component name="RecentTaskRepositories">
+    <GitHub shared="false" url="https://github.com">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <token>dfcfdf98df9bdf92df93dfc9df9ddf9edfccdfc8df9fdfc8df9cdfcbdf9fdf9fdfcedfcfdf93dfccdf98df9edfcbdfcedf9fdfcbdf9cdfc8df9edf9fdf9adf93df92df93df9bdf9bdf9bdf9ddf9edf9f</token>
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="repoAuthor" value="awd-development" />
+      <option name="repoName" value="awd-development-site" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <option name="user" value="" />
+      <username />
+    </GitHub>
+  </component>
   <component name="SvgViewer.Settings">
     <option name="PLUGIN_ENABLED" value="true" />
   </component>
