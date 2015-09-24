@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '/home/jazzman/www/lampstack/apps/wordpress/htdocs/wp-content/plugins/paid-memberships-pro/pages/popup-cvv.html'" />
-    <option name="defaultScopeName" value="File '/home/jazzman/www/lampstack/apps/wordpress/htdocs/wp-content/plugins/paid-memberships-pro/pages/popup-cvv.html'" />
+    <option name="customScope" value="File '/home/jazzman/www/ok-karpatu/wp-content/themes/wpnation/gallery.php'" />
+    <option name="defaultScopeName" value="File '/home/jazzman/www/ok-karpatu/wp-content/themes/wpnation/gallery.php'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '/home/jazzman/www/lampstack/apps/wordpress/htdocs/wp-content/plugins/paid-memberships-pro/pages/popup-cvv.html'" />
+    <option name="SEARCH_SCOPE" value="File '/home/jazzman/www/ok-karpatu/wp-content/themes/wpnation/gallery.php'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>

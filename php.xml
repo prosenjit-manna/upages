@@ -1,7 +1,7 @@
 <application>
   <component name="MessDetector">
     <phpmd_settings>
-      <MessDetectorConfiguration />
+      <MessDetectorConfiguration tool_path="$USER_HOME$/www/lampstack/php/bin/phpmd/src/bin/phpmd" />
     </phpmd_settings>
   </component>
   <component name="PhpAutoImport" auto_import_file_scope="true" />
@@ -395,5 +395,10 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
+  </component>
+  <component name="PhpLint">
+    <PhpLint_settings>
+      <PhpLintConfiguration tool_path="$USER_HOME$/www/lampstack/php/bin/phplint-2.1_20150305/phpl" />
+    </PhpLint_settings>
   </component>
 </application>
