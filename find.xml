@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '/home/jazzman/www/awd-development-site/app/js/main.js'" />
-    <option name="defaultScopeName" value="File '/home/jazzman/www/awd-development-site/app/js/main.js'" />
+    <option name="customScope" value="File '/home/jazzman/www/awd-development-site/build/css/main.css'" />
+    <option name="defaultScopeName" value="File '/home/jazzman/www/awd-development-site/build/css/main.css'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '/home/jazzman/www/awd-development-site/app/js/main.js'" />
+    <option name="SEARCH_SCOPE" value="File '/home/jazzman/www/awd-development-site/build/css/main.css'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
