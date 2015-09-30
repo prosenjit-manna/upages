@@ -29,6 +29,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="48c66386-9f2a-4d94-9c18-79cd19b9550f" name="awd-development" url="http://uhelpers.com/">
+        <fileTransfer host="helperua.ftp.ukraine.com.ua" port="21" rootFolder="/uhelpers.com/awd" password="dffddffcdfe6dfc4dfdfdfcbdf9edffd" username="helperua_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
