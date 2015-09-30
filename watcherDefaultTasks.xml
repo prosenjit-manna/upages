@@ -126,7 +126,7 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$ProjectFileDir$/app/view/page/$FileName$ --pretty --path $FileParentDir$/component -o $ProjectFileDir$/build" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" value="Compiles .jade files into .html files" />
