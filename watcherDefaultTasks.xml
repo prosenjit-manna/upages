@@ -20,7 +20,7 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$ProjectFileDir$/app/js/$FileName$ -o $ProjectFileDir$/build/js/all.min.js" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compresses .js files" />
@@ -60,7 +60,7 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="--output-style compressed $ProjectFileDir$/app/scss/$FileNameWithoutAllExtensions$.scss $ProjectFileDir$/build/scss/$FileNameWithoutAllExtensions$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compiles .scss files into .css files" />
@@ -127,23 +127,23 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="false">
-      <option name="arguments" value="$ProjectFileDir$/app/view/page/$FileName$ --pretty --path $FileParentDir$/component -o $ProjectFileDir$/build" />
-      <option name="checkSyntaxErrors" value="false" />
+      <option name="arguments" value="$FileName$ --pretty --path $ProjectFileDir$/app/view/ --out $ProjectFileDir$/build" />
+      <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compiles .jade files into .html files" />
-      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
       <option name="fileExtension" value="jade" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Jade" />
-      <option name="output" value="$ProjectFileDir$/build" />
+      <option name="output" value="$ProjectFileDir$/build/$FileNameWithoutExtension$.html" />
       <option name="outputFilters">
         <array />
       </option>
-      <option name="outputFromStdout" value="false" />
+      <option name="outputFromStdout" value="true" />
       <option name="passParentEnvs" value="true" />
       <option name="program" value="/usr/bin/jade" />
       <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="$FileDir$" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
