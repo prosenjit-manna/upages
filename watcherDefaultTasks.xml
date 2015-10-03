@@ -21,14 +21,14 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FileName$ -o $ProjectFileDir$/build/js/$FileNameWithoutExtension$.min.js" />
+      <option name="arguments" value="$ProjectFileDir$/app/js/$FileName$ -o $ProjectFileDir$/build/js/all.min.js" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compresses .js files" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
       <option name="name" value="YUI Compressor JS" />
-      <option name="output" value="$ProjectFileDir$/build/js/$FileNameWithoutExtension$.min.js" />
+      <option name="output" value="$ProjectFileDir$/build/js/all.min.js" />
       <option name="outputFilters">
         <array />
       </option>
@@ -37,7 +37,7 @@
       <option name="program" value="/usr/bin/yuicompressor" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="$FileDir$" />
+      <option name="workingDir" value="$ProjectFileDir$/app/js/" />
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="false">
@@ -60,21 +60,21 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="false">
-      <option name="arguments" value="--style expanded --sourcemap $FileName$ $ProjectFileDir$/build/css/$FileNameWithoutExtension$.css" />
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--output-style compressed $ProjectFileDir$/app/scss/$FileNameWithoutAllExtensions$.scss $ProjectFileDir$/build/scss/$FileNameWithoutAllExtensions$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compiles .scss files into .css files" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="scss" />
       <option name="immediateSync" value="true" />
       <option name="name" value="SCSS" />
-      <option name="output" value="$ProjectFileDir$/build/css/$FileNameWithoutExtension$.css" />
+      <option name="output" value="$ProjectFileDir$/build/scss/$FileNameWithoutAllExtensions$.css" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="passParentEnvs" value="true" />
-      <option name="program" value="/usr/local/bin/sassc" />
+      <option name="program" value="/usr/bin/node-sass" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
