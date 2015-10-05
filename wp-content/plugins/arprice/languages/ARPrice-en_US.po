@@ -1,0 +1,1823 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARPrice v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-17 10:43:11+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: arprice.php:374
+#: core/views/arprice_listing_editor.php:567
+#: core/views/arprice_listing_editor.php:816
+#@ ARPrice
+msgid "Image"
+msgstr "Image"
+
+#: arprice.php:376
+#@ ARPrice
+msgid "Youtube video"
+msgstr "Youtube video"
+
+#: arprice.php:377
+#@ ARPrice
+msgid "Vimeo Video"
+msgstr "Vimeo Video"
+
+#: arprice.php:378
+#@ ARPrice
+msgid "Screenr Video"
+msgstr "Screenr Video"
+
+#: arprice.php:379
+#@ ARPrice
+msgid "html5 Video"
+msgstr "html5 Video"
+
+#: arprice.php:380
+#@ ARPrice
+msgid "Dailymotion Video"
+msgstr "Dailymotion Video"
+
+#: arprice.php:381
+#@ ARPrice
+msgid "Metacafe Video"
+msgstr "Metacafe Video"
+
+#: arprice.php:384
+#@ ARPrice
+msgid "html5 Audio"
+msgstr "html5 Audio"
+
+#: arprice.php:385
+#@ ARPrice
+msgid "Soundcloud Audio"
+msgstr "Soundcloud Audio"
+
+#: arprice.php:386
+#@ ARPrice
+msgid "Mixcloud Audio"
+msgstr "Mixcloud Audio"
+
+#: arprice.php:387
+#@ ARPrice
+msgid "Beatport Audio"
+msgstr "Beatport Audio"
+
+#: arprice.php:390
+#@ ARPrice
+msgid "Google Map"
+msgstr "Google Map"
+
+#: arprice.php:391
+#@ ARPrice
+msgid "Embed Block"
+msgstr "Embed Block"
+
+#: arprice.php:396
+#: core/views/arprice_listing_editor.php:1612
+#: core/views/arprice_listing_editor.php:1735
+#@ ARPrice
+msgid "Image URL"
+msgstr "Image URL"
+
+#: arprice.php:397
+#: arprice.php:402
+#: arprice.php:407
+#: arprice.php:412
+#: arprice.php:432
+#: arprice.php:441
+#: arprice.php:446
+#: arprice.php:452
+#: arprice.php:458
+#: arprice.php:464
+#: core/views/arprice_listing_editor.php:1622
+#: core/views/arprice_listing_editor.php:1745
+#@ ARPrice
+msgid "Height"
+msgstr "Height"
+
+#: arprice.php:398
+#: core/views/arprice_listing_editor.php:1631
+#: core/views/arprice_listing_editor.php:1754
+#@ ARPrice
+msgid "Width"
+msgstr "Width"
+
+#: arprice.php:401
+#: arprice.php:406
+#: arprice.php:411
+#: arprice.php:440
+#: arprice.php:445
+#@ ARPrice
+msgid "Video id"
+msgstr "Video id"
+
+#: arprice.php:403
+#: arprice.php:408
+#: arprice.php:419
+#: arprice.php:423
+#: arprice.php:442
+#: arprice.php:447
+#: arprice.php:453
+#: arprice.php:459
+#: arprice.php:465
+#: core/classes/class.arprice_preview_editor.php:523
+#@ ARPrice
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: arprice.php:415
+#@ ARPrice
+msgid "MP4 source"
+msgstr "MP4 source"
+
+#: arprice.php:416
+#@ ARPrice
+msgid "Webm source"
+msgstr "Webm source"
+
+#: arprice.php:417
+#: arprice.php:426
+#@ ARPrice
+msgid "Ogg source"
+msgstr "Ogg source"
+
+#: arprice.php:418
+#@ ARPrice
+msgid "Poster image source"
+msgstr "Poster image source"
+
+#: arprice.php:420
+#: arprice.php:424
+#@ ARPrice
+msgid "Loop"
+msgstr "Loop"
+
+#: arprice.php:425
+#@ ARPrice
+msgid "MP3 source"
+msgstr "MP3 source"
+
+#: arprice.php:427
+#@ ARPrice
+msgid "Wav source"
+msgstr "Wav source"
+
+#: arprice.php:431
+#@ ARPrice
+msgid "Address"
+msgstr "Address"
+
+#: arprice.php:433
+#@ ARPrice
+msgid "Zoom level"
+msgstr "Zoom level"
+
+#: arprice.php:434
+#@ ARPrice
+msgid "Marker image source"
+msgstr "Marker image source"
+
+#: arprice.php:435
+#@ ARPrice
+msgid "Marker title"
+msgstr "Marker title"
+
+#: arprice.php:436
+#@ ARPrice
+msgid "Map info window content"
+msgstr "Map info window content"
+
+#: arprice.php:437
+#@ ARPrice
+msgid "Info window by default?"
+msgstr "Info window by default?"
+
+#: arprice.php:451
+#: arprice.php:463
+#@ ARPrice
+msgid "Track id"
+msgstr "Track id"
+
+#: arprice.php:457
+#@ ARPrice
+msgid "Track url"
+msgstr "Track url"
+
+#: arprice.php:469
+#@ ARPrice
+msgid "Embed"
+msgstr "Embed"
+
+#: arprice.php:479
+#@ ARPrice
+msgid "Small"
+msgstr "Small"
+
+#: arprice.php:480
+#@ ARPrice
+msgid "Medium"
+msgstr "Medium"
+
+#: arprice.php:481
+#@ ARPrice
+msgid "Large"
+msgstr "Large"
+
+#: arprice.php:484
+#@ ARPrice
+msgid "Button"
+msgstr "Button"
+
+#: arprice.php:485
+#@ ARPrice
+msgid "Submit"
+msgstr "Submit"
+
+#: arprice.php:1683
+#@ ARPrice
+msgid "View And Manage Pricing Tables"
+msgstr "View And Manage Pricing Tables"
+
+#: arprice.php:1684
+#@ ARPrice
+msgid "Add/Edit Pricing Tables"
+msgstr "Add/Edit Pricing Tables"
+
+#: arprice.php:1685
+#@ ARPrice
+msgid "View Analytics of Pricing Tables"
+msgstr "View Analytics of Pricing Tables"
+
+#: arprice.php:1686
+#: arprice.php:1687
+#@ ARPrice
+msgid "Import/Export Pricing Tables"
+msgstr "Import/Export Pricing Tables"
+
+#: core/classes/class.arprice.php:109
+#@ ARPrice
+msgid "Analytics"
+msgstr "Analytics"
+
+#: arprice.php:1721
+#@ ARPrice
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: arprice.php:1723
+#@ ARPrice
+msgid "Settings"
+msgstr "Settings"
+
+#: core/classes/class.arprice.php:663
+#@ ARPrice
+msgid "Edit"
+msgstr "Edit"
+
+#: core/classes/class.arprice.php:668
+#: core/views/arprice_listing_editor.php:504
+#@ ARPrice
+msgid "Delete"
+msgstr "Delete"
+
+#: core/classes/class.arprice.php:672
+#@ ARPrice
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: core/classes/class.arprice.php:683
+#@ ARPrice
+msgid "No Data Found"
+msgstr "No Data Found"
+
+#: core/classes/class.arprice_form.php:3232
+#: core/classes/class.arprice_preview_editor.php:850
+#: core/classes/class.arprice_preview_editor.php:2581
+#@ ARPrice
+msgid "Default Fonts"
+msgstr "Default Fonts"
+
+#: core/classes/class.arprice_form.php:3241
+#: core/classes/class.arprice_preview_editor.php:857
+#: core/classes/class.arprice_preview_editor.php:2585
+#@ ARPrice
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: core/classes/class.arprice_form.php:4287
+#: core/classes/class.arprice_preview_editor.php:1546
+#: core/classes/class.arprice_preview_editor_option.php:8
+#@ ARPrice
+msgid "Column Settings"
+msgstr "Column Settings"
+
+#: core/classes/class.arprice_form.php:4288
+#: core/classes/class.arprice_form.php:4296
+#: core/classes/class.arprice_form.php:4302
+#: core/classes/class.arprice_form.php:4307
+#: core/classes/class.arprice_preview_editor_option.php:9
+#: core/classes/class.arprice_preview_editor_option.php:17
+#: core/classes/class.arprice_preview_editor_option.php:24
+#: core/classes/class.arprice_preview_editor_option.php:29
+#@ ARPrice
+msgid "Column Description Settings"
+msgstr "Column Description Settings"
+
+#: core/classes/class.arprice_form.php:4291
+#: core/classes/class.arprice_preview_editor_option.php:11
+#@ ARPrice
+msgid "Duplicate Column"
+msgstr "Duplicate Column"
+
+#: core/classes/class.arprice_form.php:4292
+#: core/classes/class.arprice_preview_editor.php:1549
+#: core/classes/class.arprice_preview_editor_option.php:12
+#: core/views/arprice_listing_editor.php:1674
+#@ ARPrice
+msgid "Delete Column"
+msgstr "Delete Column"
+
+#: core/classes/class.arprice_form.php:4295
+#: core/classes/class.arprice_preview_editor.php:1552
+#: core/classes/class.arprice_preview_editor_option.php:16
+#@ ARPrice
+msgid "Header Settings"
+msgstr "Header Settings"
+
+#: core/classes/class.arprice_form.php:4297
+#@ ARPrice
+msgid "Shortcode Settings"
+msgstr "Shortcode Settings"
+
+#: core/classes/class.arprice_form.php:4300
+#: core/classes/class.arprice_preview_editor_option.php:22
+#@ ARPrice
+msgid "Price Settings"
+msgstr "Price Settings"
+
+#: core/classes/class.arprice_form.php:4301
+#: core/classes/class.arprice_preview_editor_option.php:23
+#@ ARPrice
+msgid "Price Interval Settings"
+msgstr "Price Interval Settings"
+
+#: core/classes/class.arprice_form.php:4305
+#: core/classes/class.arprice_preview_editor.php:1555
+#: core/classes/class.arprice_preview_editor_option.php:27
+#@ ARPrice
+msgid "Content Settings"
+msgstr "Content Settings"
+
+#: core/classes/class.arprice_form.php:4306
+#: core/classes/class.arprice_preview_editor_option.php:28
+#@ ARPrice
+msgid "Content Label Settings"
+msgstr "Content Label Settings"
+
+#: core/classes/class.arprice_form.php:4312
+#: core/classes/class.arprice_preview_editor.php:1559
+#: core/classes/class.arprice_preview_editor_option.php:35
+#@ ARPrice
+msgid "Description Settings"
+msgstr "Description Settings"
+
+#: core/classes/class.arprice_form.php:4313
+#: core/classes/class.arprice_preview_editor.php:1560
+#: core/classes/class.arprice_preview_editor_option.php:36
+#@ ARPrice
+msgid "Tooltip Settings"
+msgstr "Tooltip Settings"
+
+#: core/classes/class.arprice_form.php:4314
+#: core/classes/class.arprice_preview_editor_option.php:37
+#@ ARPrice
+msgid "Label Description Settings"
+msgstr "Label Description Settings"
+
+#: core/classes/class.arprice_form.php:4316
+#: core/classes/class.arprice_preview_editor.php:1562
+#: core/classes/class.arprice_preview_editor_option.php:39
+#@ ARPrice
+msgid "Add New Row"
+msgstr "Add New Row"
+
+#: core/classes/class.arprice_form.php:4317
+#: core/classes/class.arprice_preview_editor.php:1563
+#: core/classes/class.arprice_preview_editor_option.php:40
+#@ ARPrice
+msgid "Duplicate Row"
+msgstr "Duplicate Row"
+
+#: core/classes/class.arprice_form.php:4318
+#: core/classes/class.arprice_preview_editor.php:1564
+#: core/classes/class.arprice_preview_editor_option.php:41
+#: core/views/arprice_listing_editor.php:1655
+#@ ARPrice
+msgid "Delete Row"
+msgstr "Delete Row"
+
+#: core/classes/class.arprice_form.php:4321
+#: core/classes/class.arprice_form.php:4327
+#: core/classes/class.arprice_preview_editor_option.php:44
+#: core/classes/class.arprice_preview_editor_option.php:50
+#@ ARPrice
+msgid "Button General Settings"
+msgstr "Button General Settings"
+
+#: core/classes/class.arprice_form.php:4322
+#: core/classes/class.arprice_form.php:4328
+#: core/classes/class.arprice_preview_editor_option.php:45
+#: core/classes/class.arprice_preview_editor_option.php:51
+#@ ARPrice
+msgid "Button Image Settings"
+msgstr "Button Image Settings"
+
+#: core/classes/class.arprice_form.php:4323
+#: core/classes/class.arprice_preview_editor_option.php:46
+#@ ARPrice
+msgid "Button Link/Script Settings"
+msgstr "Button Link/Script Settings"
+
+#: core/classes/class.arprice_form.php:4323
+#: core/classes/class.arprice_form.php:4329
+#: core/classes/class.arprice_preview_editor_option.php:46
+#: core/classes/class.arprice_preview_editor_option.php:52
+#@ ARPrice
+msgid "Button Link Settings"
+msgstr "Button Link Settings"
+
+#: core/classes/class.arprice_form.php:4324
+#: core/classes/class.arprice_form.php:4330
+#: core/classes/class.arprice_preview_editor_option.php:47
+#: core/classes/class.arprice_preview_editor_option.php:53
+#@ ARPrice
+msgid "Button Other Settings"
+msgstr "Button Other Settings"
+
+#: core/classes/class.arprice_form.php:4340
+#: core/classes/class.arprice_preview_editor.php:244
+#@ ARPrice
+msgid "Column Width"
+msgstr "Column Width"
+
+#: core/classes/class.arprice_form.php:4348
+#: core/classes/class.arprice_preview_editor.php:236
+#: core/classes/class.arprice_preview_editor.php:253
+#: core/classes/class.arprice_preview_editor.php:289
+#: core/classes/class.arprice_preview_editor.php:308
+#: core/classes/class.arprice_preview_editor.php:1580
+#: core/classes/class.arprice_preview_editor_option.php:67
+#@ ARPrice
+msgid "Px"
+msgstr "Px"
+
+#: core/classes/class.arprice_form.php:4358
+#: core/classes/class.arprice_preview_editor_option.php:73
+#@ ARPrice
+msgid "Column Highlight"
+msgstr "Column Highlight"
+
+#: core/classes/class.arprice_form.php:4368
+#: core/classes/class.arprice_form.php:4388
+#: core/classes/class.arprice_form.php:6443
+#: core/classes/class.arprice_form.php:6629
+#: core/classes/class.arprice_preview_editor.php:1591
+#: core/classes/class.arprice_preview_editor_option.php:78
+#: core/classes/class.arprice_preview_editor_option.php:89
+#: core/classes/class.arprice_preview_editor_option.php:2127
+#: core/classes/class.arprice_preview_editor_option.php:2324
+#@ ARPrice
+msgid "Yes"
+msgstr "Yes"
+
+#: core/classes/class.arprice_form.php:4378
+#: core/classes/class.arprice_preview_editor.php:1586
+#: core/classes/class.arprice_preview_editor_option.php:84
+#@ ARPrice
+msgid "Hidden (Optional)"
+msgstr "Hidden (Optional)"
+
+#: core/classes/class.arprice_form.php:4398
+#: core/classes/class.arprice_preview_editor_option.php:95
+#@ ARPrice
+msgid "Ribbon"
+msgstr "Ribbon"
+
+#: core/classes/class.arprice_form.php:4404
+#: core/classes/class.arprice_preview_editor_option.php:98
+#: core/views/arprice_listing_editor.php:638
+#@ ARPrice
+msgid "Select Ribbon"
+msgstr "Select Ribbon"
+
+#: core/classes/class.arprice_form.php:4422
+#: core/classes/class.arprice_form.php:4601
+#: core/classes/class.arprice_form.php:4790
+#: core/classes/class.arprice_form.php:4974
+#: core/classes/class.arprice_form.php:5161
+#: core/classes/class.arprice_form.php:5385
+#: core/classes/class.arprice_form.php:5569
+#: core/classes/class.arprice_form.php:5751
+#: core/classes/class.arprice_form.php:5934
+#: core/classes/class.arprice_form.php:6098
+#: core/classes/class.arprice_form.php:6210
+#: core/classes/class.arprice_form.php:6380
+#: core/classes/class.arprice_form.php:6415
+#: core/classes/class.arprice_form.php:6461
+#: core/classes/class.arprice_form.php:6571
+#: core/classes/class.arprice_form.php:6603
+#: core/classes/class.arprice_form.php:6666
+#: core/classes/class.arprice_form.php:6771
+#: core/classes/class.arprice_form.php:6820
+#: core/classes/class.arprice_form.php:6868
+#: core/classes/class.arprice_form.php:7001
+#: core/classes/class.arprice_form.php:7048
+#: core/classes/class.arprice_form.php:7096
+#: core/classes/class.arprice_preview_editor.php:1600
+#: core/classes/class.arprice_preview_editor.php:1733
+#: core/classes/class.arprice_preview_editor.php:1870
+#: core/classes/class.arprice_preview_editor.php:1922
+#: core/classes/class.arprice_preview_editor.php:1964
+#: core/classes/class.arprice_preview_editor_option.php:117
+#: core/classes/class.arprice_preview_editor_option.php:298
+#: core/classes/class.arprice_preview_editor_option.php:477
+#: core/classes/class.arprice_preview_editor_option.php:650
+#: core/classes/class.arprice_preview_editor_option.php:811
+#: core/classes/class.arprice_preview_editor_option.php:990
+#: core/classes/class.arprice_preview_editor_option.php:1169
+#: core/classes/class.arprice_preview_editor_option.php:1349
+#: core/classes/class.arprice_preview_editor_option.php:1523
+#: core/classes/class.arprice_preview_editor_option.php:1680
+#: core/classes/class.arprice_preview_editor_option.php:1859
+#: core/classes/class.arprice_preview_editor_option.php:2062
+#: core/classes/class.arprice_preview_editor_option.php:2099
+#: core/classes/class.arprice_preview_editor_option.php:2147
+#: core/classes/class.arprice_preview_editor_option.php:2266
+#: core/classes/class.arprice_preview_editor_option.php:2297
+#: core/classes/class.arprice_preview_editor_option.php:2354
+#: core/classes/class.arprice_preview_editor_option.php:2439
+#: core/classes/class.arprice_preview_editor_option.php:2486
+#: core/classes/class.arprice_preview_editor_option.php:2535
+#: core/views/arprice_listing_editor.php:44
+#: core/views/arprice_listing_editor.php:761
+#@ ARPrice
+msgid "Ok"
+msgstr "Ok"
+
+#: core/classes/class.arprice_form.php:4438
+#: core/classes/class.arprice_form.php:4807
+#: core/classes/class.arprice_form.php:4994
+#: core/classes/class.arprice_form.php:5177
+#: core/classes/class.arprice_form.php:5767
+#: core/classes/class.arprice_preview_editor_option.php:134
+#: core/classes/class.arprice_preview_editor_option.php:492
+#: core/classes/class.arprice_preview_editor_option.php:663
+#: core/classes/class.arprice_preview_editor_option.php:1183
+#: core/classes/class.arprice_preview_editor_option.php:1694
+#@ ARPrice
+msgid "Column Description"
+msgstr "Column Description"
+
+#: core/classes/class.arprice_form.php:4453
+#: core/classes/class.arprice_form.php:4634
+#: core/classes/class.arprice_form.php:4821
+#: core/classes/class.arprice_form.php:5008
+#: core/classes/class.arprice_form.php:5190
+#: core/classes/class.arprice_form.php:5345
+#: core/classes/class.arprice_form.php:5354
+#: core/classes/class.arprice_form.php:5370
+#: core/classes/class.arprice_form.php:5411
+#: core/classes/class.arprice_form.php:5593
+#: core/classes/class.arprice_form.php:5781
+#: core/classes/class.arprice_form.php:6753
+#: core/classes/class.arprice_form.php:6985
+#: core/classes/class.arprice_preview_editor.php:1621
+#: core/classes/class.arprice_preview_editor.php:1905
+#: core/classes/class.arprice_preview_editor_option.php:143
+#: core/classes/class.arprice_preview_editor_option.php:329
+#: core/classes/class.arprice_preview_editor_option.php:500
+#: core/classes/class.arprice_preview_editor_option.php:671
+#: core/classes/class.arprice_preview_editor_option.php:776
+#: core/classes/class.arprice_preview_editor_option.php:784
+#: core/classes/class.arprice_preview_editor_option.php:798
+#: core/classes/class.arprice_preview_editor_option.php:834
+#: core/classes/class.arprice_preview_editor_option.php:1010
+#: core/classes/class.arprice_preview_editor_option.php:1191
+#: core/classes/class.arprice_preview_editor_option.php:1702
+#: core/classes/class.arprice_preview_editor_option.php:2421
+#@ ARPrice
+msgid "Add Media"
+msgstr "Add Media"
+
+#: core/classes/class.arprice_form.php:4462
+#: core/classes/class.arprice_form.php:5361
+#@ ARPrice
+msgid "Add Font"
+msgstr "Add Font"
+
+#: core/classes/class.arprice_form.php:4473
+#: core/classes/class.arprice_form.php:4658
+#: core/classes/class.arprice_form.php:4839
+#: core/classes/class.arprice_form.php:5025
+#: core/classes/class.arprice_form.php:5208
+#: core/classes/class.arprice_form.php:5434
+#: core/classes/class.arprice_form.php:5614
+#: core/classes/class.arprice_form.php:5799
+#: core/classes/class.arprice_form.php:5979
+#: core/classes/class.arprice_form.php:6110
+#: core/classes/class.arprice_form.php:6276
+#: core/classes/class.arprice_form.php:6503
+#: core/classes/class.arprice_preview_editor.php:827
+#: core/classes/class.arprice_preview_editor.php:1640
+#: core/classes/class.arprice_preview_editor.php:1773
+#: core/classes/class.arprice_preview_editor_option.php:162
+#: core/classes/class.arprice_preview_editor_option.php:346
+#: core/classes/class.arprice_preview_editor_option.php:516
+#: core/classes/class.arprice_preview_editor_option.php:687
+#: core/classes/class.arprice_preview_editor_option.php:852
+#: core/classes/class.arprice_preview_editor_option.php:1031
+#: core/classes/class.arprice_preview_editor_option.php:1207
+#: core/classes/class.arprice_preview_editor_option.php:1388
+#: core/classes/class.arprice_preview_editor_option.php:1536
+#: core/classes/class.arprice_preview_editor_option.php:1718
+#: core/classes/class.arprice_preview_editor_option.php:1921
+#: core/classes/class.arprice_preview_editor_option.php:2188
+#@ ARPrice
+msgid "Font Family"
+msgstr "Font Family"
+
+#: core/classes/class.arprice_form.php:4501
+#: core/classes/class.arprice_form.php:4688
+#: core/classes/class.arprice_form.php:4870
+#: core/classes/class.arprice_form.php:5055
+#: core/classes/class.arprice_form.php:5239
+#: core/classes/class.arprice_form.php:5468
+#: core/classes/class.arprice_form.php:5644
+#: core/classes/class.arprice_form.php:5831
+#: core/classes/class.arprice_form.php:6008
+#: core/classes/class.arprice_form.php:6129
+#: core/classes/class.arprice_form.php:6297
+#: core/classes/class.arprice_form.php:6520
+#: core/classes/class.arprice_preview_editor.php:880
+#: core/classes/class.arprice_preview_editor.php:1657
+#: core/classes/class.arprice_preview_editor.php:1791
+#: core/classes/class.arprice_preview_editor_option.php:181
+#: core/classes/class.arprice_preview_editor_option.php:365
+#: core/classes/class.arprice_preview_editor_option.php:535
+#: core/classes/class.arprice_preview_editor_option.php:706
+#: core/classes/class.arprice_preview_editor_option.php:872
+#: core/classes/class.arprice_preview_editor_option.php:1051
+#: core/classes/class.arprice_preview_editor_option.php:1228
+#: core/classes/class.arprice_preview_editor_option.php:1407
+#: core/classes/class.arprice_preview_editor_option.php:1555
+#: core/classes/class.arprice_preview_editor_option.php:1737
+#: core/classes/class.arprice_preview_editor_option.php:1941
+#: core/classes/class.arprice_preview_editor_option.php:2209
+#@ ARPrice
+msgid "Font Size"
+msgstr "Font Size"
+
+#: core/classes/class.arprice_form.php:4539
+#: core/classes/class.arprice_form.php:4727
+#: core/classes/class.arprice_form.php:4913
+#: core/classes/class.arprice_form.php:5098
+#: core/classes/class.arprice_form.php:5311
+#: core/classes/class.arprice_form.php:5510
+#: core/classes/class.arprice_form.php:5692
+#: core/classes/class.arprice_form.php:5873
+#: core/classes/class.arprice_form.php:6039
+#: core/classes/class.arprice_form.php:6154
+#: core/classes/class.arprice_form.php:6325
+#: core/classes/class.arprice_form.php:6560
+#: core/classes/class.arprice_preview_editor.php:1682
+#: core/classes/class.arprice_preview_editor.php:1816
+#: core/classes/class.arprice_preview_editor_option.php:206
+#: core/classes/class.arprice_preview_editor_option.php:392
+#: core/classes/class.arprice_preview_editor_option.php:559
+#: core/classes/class.arprice_preview_editor_option.php:747
+#: core/classes/class.arprice_preview_editor_option.php:897
+#: core/classes/class.arprice_preview_editor_option.php:1076
+#: core/classes/class.arprice_preview_editor_option.php:1253
+#: core/classes/class.arprice_preview_editor_option.php:1432
+#: core/classes/class.arprice_preview_editor_option.php:1582
+#: core/classes/class.arprice_preview_editor_option.php:1762
+#: core/classes/class.arprice_preview_editor_option.php:1967
+#: core/classes/class.arprice_preview_editor_option.php:2254
+#@ ARPrice
+msgid "Font Color"
+msgstr "Font Color"
+
+#: core/classes/class.arprice_form.php:4555
+#: core/classes/class.arprice_form.php:4746
+#: core/classes/class.arprice_form.php:4930
+#: core/classes/class.arprice_form.php:5114
+#: core/classes/class.arprice_form.php:5278
+#: core/classes/class.arprice_form.php:5527
+#: core/classes/class.arprice_form.php:5708
+#: core/classes/class.arprice_form.php:5888
+#: core/classes/class.arprice_form.php:6055
+#: core/classes/class.arprice_form.php:6165
+#: core/classes/class.arprice_form.php:6338
+#: core/classes/class.arprice_form.php:6542
+#: core/classes/class.arprice_preview_editor.php:924
+#: core/classes/class.arprice_preview_editor.php:1694
+#: core/classes/class.arprice_preview_editor.php:1828
+#: core/classes/class.arprice_preview_editor_option.php:218
+#: core/classes/class.arprice_preview_editor_option.php:400
+#: core/classes/class.arprice_preview_editor_option.php:570
+#: core/classes/class.arprice_preview_editor_option.php:729
+#: core/classes/class.arprice_preview_editor_option.php:910
+#: core/classes/class.arprice_preview_editor_option.php:1088
+#: core/classes/class.arprice_preview_editor_option.php:1265
+#: core/classes/class.arprice_preview_editor_option.php:1444
+#: core/classes/class.arprice_preview_editor_option.php:1594
+#: core/classes/class.arprice_preview_editor_option.php:1774
+#: core/classes/class.arprice_preview_editor_option.php:1980
+#: core/classes/class.arprice_preview_editor_option.php:2234
+#@ ARPrice
+msgid "Font Style"
+msgstr "Font Style"
+
+#: core/classes/class.arprice_form.php:4614
+#: core/classes/class.arprice_preview_editor.php:1612
+#: core/classes/class.arprice_preview_editor_option.php:311
+#@ ARPrice
+msgid "Column Title"
+msgstr "Column Title"
+
+#: core/classes/class.arprice_form.php:4645
+#: core/classes/class.arprice_form.php:4829
+#: core/classes/class.arprice_form.php:5015
+#: core/classes/class.arprice_form.php:5198
+#: core/classes/class.arprice_form.php:5421
+#: core/classes/class.arprice_form.php:5603
+#: core/classes/class.arprice_form.php:5789
+#: core/classes/class.arprice_form.php:6728
+#: core/classes/class.arprice_form.php:6759
+#: core/classes/class.arprice_form.php:6805
+#: core/classes/class.arprice_form.php:6853
+#: core/classes/class.arprice_form.php:6946
+#: core/classes/class.arprice_form.php:6991
+#: core/classes/class.arprice_form.php:7030
+#: core/classes/class.arprice_form.php:7079
+#: core/classes/class.arprice_preview_editor.php:1631
+#: core/classes/class.arprice_preview_editor.php:1912
+#: core/classes/class.arprice_preview_editor.php:1954
+#: core/classes/class.arprice_preview_editor_option.php:153
+#: core/classes/class.arprice_preview_editor_option.php:338
+#: core/classes/class.arprice_preview_editor_option.php:508
+#: core/classes/class.arprice_preview_editor_option.php:679
+#: core/classes/class.arprice_preview_editor_option.php:791
+#: core/classes/class.arprice_preview_editor_option.php:843
+#: core/classes/class.arprice_preview_editor_option.php:1022
+#: core/classes/class.arprice_preview_editor_option.php:1199
+#: core/classes/class.arprice_preview_editor_option.php:1710
+#: core/classes/class.arprice_preview_editor_option.php:1890
+#: core/classes/class.arprice_preview_editor_option.php:2169
+#: core/classes/class.arprice_preview_editor_option.php:2396
+#: core/classes/class.arprice_preview_editor_option.php:2427
+#: core/classes/class.arprice_preview_editor_option.php:2473
+#: core/classes/class.arprice_preview_editor_option.php:2521
+#@ ARPrice
+msgid "Add Font Awesome Icon"
+msgstr "Add Font Awesome Icon"
+
+#: core/classes/class.arprice_form.php:5328
+#: core/classes/class.arprice_preview_editor_option.php:764
+#@ ARPrice
+msgid "Additional Shortcode"
+msgstr "Additional Shortcode"
+
+#: core/classes/class.arprice_form.php:5398
+#: core/classes/class.arprice_preview_editor_option.php:821
+#@ ARPrice
+msgid "Price Text"
+msgstr "Price Text"
+
+#: core/classes/class.arprice_form.php:5582
+#: core/classes/class.arprice_preview_editor_option.php:1000
+#@ ARPrice
+msgid "Label Text"
+msgstr "Label Text"
+
+#: core/classes/class.arprice_form.php:5947
+#: core/classes/class.arprice_preview_editor.php:1746
+#: core/classes/class.arprice_preview_editor_option.php:1361
+#@ ARPrice
+msgid "Text Alignment"
+msgstr "Text Alignment"
+
+#: core/classes/class.arprice_form.php:6231
+#: core/classes/class.arprice_form.php:6475
+#: core/classes/class.arprice_preview_editor_option.php:1878
+#: core/classes/class.arprice_preview_editor_option.php:2159
+#@ ARPrice
+msgid "Button Content"
+msgstr "Button Content"
+
+#: core/classes/class.arprice_form.php:6253
+#: core/classes/class.arprice_form.php:6636
+#: core/classes/class.arprice_preview_editor_option.php:1900
+#: core/classes/class.arprice_preview_editor_option.php:2331
+#@ ARPrice
+msgid "Button Size"
+msgstr "Button Size"
+
+#: core/classes/class.arprice_form.php:6392
+#: core/classes/class.arprice_form.php:6581
+#: core/classes/class.arprice_preview_editor_option.php:2077
+#: core/classes/class.arprice_preview_editor_option.php:2277
+#@ ARPrice
+msgid "Button Image url"
+msgstr "Button Image url"
+
+#: core/classes/class.arprice_form.php:6426
+#: core/classes/class.arprice_form.php:6613
+#: core/classes/class.arprice_preview_editor_option.php:2110
+#: core/classes/class.arprice_preview_editor_option.php:2307
+#@ ARPrice
+msgid "Button Link"
+msgstr "Button Link"
+
+#: core/classes/class.arprice_form.php:6434
+#: core/classes/class.arprice_form.php:6620
+#: core/classes/class.arprice_preview_editor_option.php:2118
+#: core/classes/class.arprice_preview_editor_option.php:2315
+#@ ARPrice
+msgid "Open in New Window?"
+msgstr "Open in New Window?"
+
+#: core/classes/class.arprice_form.php:6449
+#: core/classes/class.arprice_form.php:6494
+#@ ARPrice
+msgid "Paypal Code"
+msgstr "Paypal Code"
+
+#: core/classes/class.arprice_form.php:6679
+#@ ARPrice
+msgid "Button Type"
+msgstr "Button Type"
+
+#: core/classes/class.arprice_form.php:6741
+#: core/classes/class.arprice_form.php:6967
+#: core/classes/class.arprice_preview_editor.php:1892
+#: core/classes/class.arprice_preview_editor_option.php:2409
+#@ ARPrice
+msgid "Description"
+msgstr "Description"
+
+#: core/classes/class.arprice_form.php:6792
+#: core/classes/class.arprice_form.php:7014
+#: core/classes/class.arprice_preview_editor.php:634
+#: core/classes/class.arprice_preview_editor.php:1944
+#: core/classes/class.arprice_preview_editor_option.php:2460
+#@ ARPrice
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: core/classes/class.arprice_form.php:6714
+#: core/classes/class.arprice_form.php:6839
+#: core/classes/class.arprice_form.php:6932
+#: core/classes/class.arprice_form.php:7065
+#: core/classes/class.arprice_preview_editor_option.php:2382
+#: core/classes/class.arprice_preview_editor_option.php:2506
+#@ ARPrice
+msgid "Label"
+msgstr "Label"
+
+#: core/classes/class.arprice_form.php:7141
+#@ ARPrice
+msgid "Normal"
+msgstr "Normal"
+
+#: core/classes/class.arprice_form.php:4567
+#: core/classes/class.arprice_form.php:4758
+#: core/classes/class.arprice_form.php:4942
+#: core/classes/class.arprice_form.php:5126
+#: core/classes/class.arprice_form.php:5539
+#: core/classes/class.arprice_form.php:5720
+#: core/classes/class.arprice_form.php:5900
+#: core/classes/class.arprice_form.php:6067
+#: core/classes/class.arprice_form.php:6179
+#: core/classes/class.arprice_form.php:6350
+#: core/classes/class.arprice_form.php:7141
+#: core/classes/class.arprice_preview_editor.php:1840
+#: core/classes/class.arprice_preview_editor_option.php:269
+#: core/classes/class.arprice_preview_editor_option.php:449
+#: core/classes/class.arprice_preview_editor_option.php:619
+#: core/classes/class.arprice_preview_editor_option.php:960
+#: core/classes/class.arprice_preview_editor_option.php:1138
+#: core/classes/class.arprice_preview_editor_option.php:1316
+#: core/classes/class.arprice_preview_editor_option.php:1493
+#: core/classes/class.arprice_preview_editor_option.php:1645
+#: core/classes/class.arprice_preview_editor_option.php:1824
+#: core/classes/class.arprice_preview_editor_option.php:2032
+#@ ARPrice
+msgid "Italic"
+msgstr "Italic"
+
+#: core/classes/class.arprice_form.php:4563
+#: core/classes/class.arprice_form.php:4754
+#: core/classes/class.arprice_form.php:4938
+#: core/classes/class.arprice_form.php:5122
+#: core/classes/class.arprice_form.php:5535
+#: core/classes/class.arprice_form.php:5716
+#: core/classes/class.arprice_form.php:5896
+#: core/classes/class.arprice_form.php:6063
+#: core/classes/class.arprice_form.php:6174
+#: core/classes/class.arprice_form.php:6346
+#: core/classes/class.arprice_form.php:7141
+#: core/classes/class.arprice_preview_editor.php:1836
+#: core/classes/class.arprice_preview_editor_option.php:265
+#: core/classes/class.arprice_preview_editor_option.php:445
+#: core/classes/class.arprice_preview_editor_option.php:615
+#: core/classes/class.arprice_preview_editor_option.php:956
+#: core/classes/class.arprice_preview_editor_option.php:1134
+#: core/classes/class.arprice_preview_editor_option.php:1312
+#: core/classes/class.arprice_preview_editor_option.php:1489
+#: core/classes/class.arprice_preview_editor_option.php:1641
+#: core/classes/class.arprice_preview_editor_option.php:1820
+#: core/classes/class.arprice_preview_editor_option.php:2028
+#@ ARPrice
+msgid "Bold"
+msgstr "Bold"
+
+#: core/classes/class.arprice_preview_editor.php:174
+#@ ARPrice
+msgid "Save"
+msgstr "Save"
+
+#: core/classes/class.arprice_preview_editor.php:181
+#@ ARPrice
+msgid "Preview"
+msgstr "Preview"
+
+#: core/classes/class.arprice_preview_editor.php:189
+#@ ARPrice
+msgid "Close"
+msgstr "Close"
+
+#: core/classes/class.arprice_preview_editor.php:214
+#@ ARPrice
+msgid "Column Options"
+msgstr "Column Options"
+
+#: core/classes/class.arprice_preview_editor.php:220
+#@ ARPrice
+msgid "Allow Space between Column"
+msgstr "Allow Space between Column"
+
+#: core/classes/class.arprice_preview_editor.php:232
+#@ ARPrice
+msgid "Space between Columns"
+msgstr "Space between Columns"
+
+#: core/classes/class.arprice_preview_editor.php:356
+#: core/classes/class.arprice_preview_editor.php:409
+#: core/classes/class.arprice_preview_editor.php:602
+#: core/classes/class.arprice_preview_editor.php:702
+#: core/classes/class.arprice_preview_editor.php:744
+#: core/classes/class.arprice_preview_editor.php:786
+#: core/classes/class.arprice_preview_editor.php:839
+#: core/classes/class.arprice_preview_editor.php:891
+#: core/classes/class.arprice_preview_editor.php:935
+#@ ARPrice
+msgid "Choose Option"
+msgstr "Choose Option"
+
+#: core/views/arprice_global_settings.php:282
+#: core/views/arprice_global_settings.php:298
+#: core/views/arprice_global_settings.php:316
+#@ ARPrice
+msgid "px"
+msgstr "px"
+
+#: core/classes/class.arprice_preview_editor.php:262
+#@ ARPrice
+msgid "Is responsive?"
+msgstr "Is responsive?"
+
+#: core/classes/class.arprice_preview_editor.php:322
+#@ ARPrice
+msgid "Hide Caption Column"
+msgstr "Hide Caption Column"
+
+#: core/classes/class.arprice_preview_editor.php:345
+#@ ARPrice
+msgid "Opacity"
+msgstr "Opacity"
+
+#: core/classes/class.arprice_preview_editor.php:386
+#@ ARPrice
+msgid "Effects"
+msgstr "Effects"
+
+#: core/classes/class.arprice_preview_editor.php:395
+#@ ARPrice
+msgid "Active Column"
+msgstr "Active Column"
+
+#: core/classes/class.arprice_preview_editor.php:443
+#@ ARPrice
+msgid "Column Rotation"
+msgstr "Column Rotation"
+
+#: core/classes/class.arprice_preview_editor.php:445
+#@ ARPrice
+msgid "Rotation effect will be shown in preview only."
+msgstr "Rotation effect will be shown in preview only."
+
+#: core/classes/class.arprice_preview_editor.php:466
+#@ ARPrice
+msgid "Visible Columns"
+msgstr "Visible Columns"
+
+#: core/classes/class.arprice_preview_editor.php:487
+#@ ARPrice
+msgid "Column to scroll"
+msgstr "Column to scroll"
+
+#: core/classes/class.arprice_preview_editor.php:505
+#@ ARPrice
+msgid "Transition Speed"
+msgstr "Transition Speed"
+
+#: core/classes/class.arprice_preview_editor.php:542
+#@ ARPrice
+msgid "Navigation / Pagination Button"
+msgstr "Navigation / Pagination Button"
+
+#: core/classes/class.arprice_preview_editor.php:587
+#@ ARPrice
+msgid "Navigation effect"
+msgstr "Navigation effect"
+
+#: core/classes/class.arprice_preview_editor.php:642
+#: core/views/arprice_listing_editor.php:659
+#@ ARPrice
+msgid "Background Color"
+msgstr "Background Color"
+
+#: core/classes/class.arprice_preview_editor.php:666
+#: core/views/arprice_listing_editor.php:669
+#@ ARPrice
+msgid "Text Color"
+msgstr "Text Color"
+
+#: core/classes/class.arprice_preview_editor.php:690
+#@ ARPrice
+msgid "Animation Style"
+msgstr "Animation Style"
+
+#: core/classes/class.arprice_preview_editor.php:731
+#@ ARPrice
+msgid "Tooltip Position"
+msgstr "Tooltip Position"
+
+#: core/classes/class.arprice_preview_editor.php:773
+#@ ARPrice
+msgid "Tooltip Style"
+msgstr "Tooltip Style"
+
+#: core/classes/class.arprice_preview_editor.php:815
+#@ ARPrice
+msgid "Font Settings"
+msgstr "Font Settings"
+
+#: core/classes/class.arprice_preview_editor.php:984
+#@ ARPrice
+msgid "Enter css class and style"
+msgstr "Enter css class and style"
+
+#: core/classes/class.arprice_preview_editor.php:991
+#@ ARPrice
+msgid "Apply To Editor"
+msgstr "Apply To Editor"
+
+#: core/classes/class.arprice_preview_editor.php:1003
+#@ ARPrice
+msgid "Choose Color :"
+msgstr "Choose Color :"
+
+#: core/classes/class.arprice_preview_editor.php:1037
+#@ ARPrice
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: core/classes/class.arprice_preview_editor.php:1575
+#: core/classes/class.arprice_preview_editor_option.php:63
+#@ ARPrice
+msgid "width (optional)"
+msgstr "width (optional)"
+
+#: core/classes/class.arprice_preview_editor.php:2573
+#: core/views/arprice_front.php:1292
+#@ ARPrice
+msgid "Please select valid table"
+msgstr "Please select valid table"
+
+#: core/classes/class.arprice_preview_editor_option.php:18
+#@ ARPrice
+msgid "Media Settings"
+msgstr "Media Settings"
+
+#: core/classes/class.arprice_preview_editor_option.php:2088
+#: core/classes/class.arprice_preview_editor_option.php:2287
+#@ ARPrice
+msgid "Add Button Image"
+msgstr "Add Button Image"
+
+#: core/classes/class.arprice_preview_editor_option.php:2136
+#: core/classes/class.arprice_preview_editor_option.php:2179
+#@ ARPrice
+msgid "Button Script (e.g. PayPal Code)"
+msgstr "Button Script (e.g. PayPal Code)"
+
+#: core/views/arprice_analytics.php:64
+#@ ARPrice
+msgid "Pricing Table Analytics"
+msgstr "Pricing Table Analytics"
+
+#: core/views/arprice_analytics.php:69
+#@ ARPrice
+msgid "Visits By Browsers"
+msgstr "Visits By Browsers"
+
+#: core/views/arprice_analytics.php:77
+#@ ARPrice
+msgid "Visits By Countries"
+msgstr "Visits By Countries"
+
+#: core/views/arprice_analytics.php:87
+#@ ARPrice
+msgid "All Visits Listing"
+msgstr "All Visits Listing"
+
+#: core/views/arprice_analytics.php:92
+#@ ARPrice
+msgid "Pricing Table"
+msgstr "Pricing Table"
+
+#: core/views/arprice_analytics.php:93
+#@ ARPrice
+msgid "Browser Info"
+msgstr "Browser Info"
+
+#: core/views/arprice_analytics.php:94
+#@ ARPrice
+msgid "Country"
+msgstr "Country"
+
+#: core/views/arprice_analytics.php:95
+#@ ARPrice
+msgid "IP Address"
+msgstr "IP Address"
+
+#: core/views/arprice_analytics.php:96
+#@ ARPrice
+msgid "Referer URL"
+msgstr "Referer URL"
+
+#: core/views/arprice_analytics.php:97
+#@ ARPrice
+msgid "Added Date"
+msgstr "Added Date"
+
+#: core/views/arprice_analytics.php:135
+#@ ARPrice
+msgid "No Entries Founds"
+msgstr "No Entries Founds"
+
+#: core/views/arprice_font_awesome.php:1
+#@ ARPrice
+msgid "File Type Icons"
+msgstr "File Type Icons"
+
+#: core/views/arprice_font_awesome.php:20
+#@ ARPrice
+msgid "Spinner Icons"
+msgstr "Spinner Icons"
+
+#: core/views/arprice_font_awesome.php:29
+#@ ARPrice
+msgid "Form Control Icons"
+msgstr "Form Control Icons"
+
+#: core/views/arprice_font_awesome.php:44
+#@ ARPrice
+msgid "Payment Icons"
+msgstr "Payment Icons"
+
+#: core/views/arprice_font_awesome.php:58
+#@ ARPrice
+msgid "Chart Icons"
+msgstr "Chart Icons"
+
+#: core/views/arprice_font_awesome.php:67
+#@ ARPrice
+msgid "Currency Icons"
+msgstr "Currency Icons"
+
+#: core/views/arprice_font_awesome.php:83
+#@ ARPrice
+msgid "Text Editor Icons"
+msgstr "Text Editor Icons"
+
+#: core/views/arprice_font_awesome.php:127
+#@ ARPrice
+msgid "Directional icons"
+msgstr "Directional icons"
+
+#: core/views/arprice_font_awesome.php:180
+#@ ARPrice
+msgid "Video Player icons"
+msgstr "Video Player icons"
+
+#: core/views/arprice_font_awesome.php:200
+#@ ARPrice
+msgid "Brand Icons"
+msgstr "Brand Icons"
+
+#: core/views/arprice_font_awesome.php:292
+#@ ARPrice
+msgid "Medical icons"
+msgstr "Medical icons"
+
+#: core/views/arprice_font_awesome.php:305
+#@ ARPrice
+msgid "General icons"
+msgstr "General icons"
+
+#: core/views/arprice_global_settings.php:92
+#: core/views/arprice_global_settings.php:128
+#@ ARPrice
+msgid "Product License"
+msgstr "Product License"
+
+#: core/views/arprice_global_settings.php:101
+#@ ARPrice
+msgid "License Status"
+msgstr "License Status"
+
+#: core/views/arprice_global_settings.php:108
+#@ ARPrice
+msgid "Deactivate License"
+msgstr "Deactivate License"
+
+#: core/views/arprice_global_settings.php:110
+#@ ARPrice
+msgid "Invalid Request"
+msgstr "Invalid Request"
+
+#: core/views/arprice_global_settings.php:111
+#@ ARPrice
+msgid "License Deactivated Successfully."
+msgstr "License Deactivated Successfully."
+
+#: core/views/arprice_global_settings.php:142
+#@ ARPrice
+msgid "Customer Name"
+msgstr "Customer Name"
+
+#: core/views/arprice_global_settings.php:148
+#: core/views/arprice_global_settings.php:186
+#@ ARPrice
+msgid "This field cannot be blank."
+msgstr "This field cannot be blank."
+
+#: core/views/arprice_global_settings.php:162
+#@ ARPrice
+msgid "Customer Email"
+msgstr "Customer Email"
+
+#: core/views/arprice_global_settings.php:179
+#@ ARPrice
+msgid "Purchase Code"
+msgstr "Purchase Code"
+
+#: core/views/arprice_global_settings.php:198
+#@ ARPrice
+msgid "Domain Name"
+msgstr "Domain Name"
+
+#: core/views/arprice_global_settings.php:221
+#@ ARPrice
+msgid "Activate"
+msgstr "Activate"
+
+#: core/views/arprice_global_settings.php:224
+#@ ARPrice
+msgid "License Activated Successfully."
+msgstr "License Activated Successfully."
+
+#: core/views/arprice_import_export.php:160
+#: core/views/arprice_import_export_17jan2015.php:160
+#@ ARPrice
+msgid "Import / Export Pricing Tables"
+msgstr "Import / Export Pricing Tables"
+
+#: core/views/arprice_import_export.php:164
+#: core/views/arprice_import_export_17jan2015.php:164
+#@ ARPrice
+msgid "Table Imported Successfully"
+msgstr "Table Imported Successfully"
+
+#: core/views/arprice_import_export.php:167
+#: core/views/arprice_import_export_17jan2015.php:167
+#@ ARPrice
+msgid "Please Select file exported from ARPrice Plugin."
+msgstr "Please Select file exported from ARPrice Plugin."
+
+#: core/views/arprice_import_export.php:170
+#: core/views/arprice_import_export_17jan2015.php:170
+#@ ARPrice
+msgid "Please Select Valid File."
+msgstr "Please Select Valid File."
+
+#: core/views/arprice_import_export.php:173
+#: core/views/arprice_import_export_17jan2015.php:173
+#@ ARPrice
+msgid "Please Select File."
+msgstr "Please Select File."
+
+#: core/views/arprice_import_export.php:176
+#: core/views/arprice_import_export_17jan2015.php:176
+#@ ARPrice
+msgid "Please Select Table."
+msgstr "Please Select Table."
+
+#: core/views/arprice_import_export.php:184
+#: core/views/arprice_import_export_17jan2015.php:184
+#@ ARPrice
+msgid "Export Pricing Tables"
+msgstr "Export Pricing Tables"
+
+#: core/views/arprice_import_export.php:198
+#: core/views/arprice_import_export_17jan2015.php:198
+#@ ARPrice
+msgid "Please Select Table(s)"
+msgstr "Please Select Table(s)"
+
+#: core/views/arprice_import_export.php:202
+#: core/views/arprice_import_export_17jan2015.php:202
+#@ ARPrice
+msgid "Export"
+msgstr "Export"
+
+#: core/views/arprice_import_export.php:213
+#: core/views/arprice_import_export_17jan2015.php:213
+#@ ARPrice
+msgid "Import Pricing Tables"
+msgstr "Import Pricing Tables"
+
+#: core/views/arprice_import_export.php:221
+#: core/views/arprice_import_export_17jan2015.php:221
+#@ ARPrice
+msgid "Please Upload zip file exported from ARPrice plugin"
+msgstr "Please Upload zip file exported from ARPrice plugin"
+
+#: core/views/arprice_import_export.php:223
+#: core/views/arprice_import_export_17jan2015.php:223
+#@ ARPrice
+msgid "Select File :"
+msgstr "Select File :"
+
+#: core/views/arprice_import_export.php:244
+#: core/views/arprice_import_export_17jan2015.php:244
+#@ ARPrice
+msgid "Import"
+msgstr "Import"
+
+#: core/views/arprice_listing_editor.php:259
+#@ ARPrice
+msgid "Pricing table saved successfully."
+msgstr "Pricing table saved successfully."
+
+#: core/views/arprice_listing_editor.php:327
+#: core/views/arprice_listing_editor.php:381
+#@ ARPrice
+msgid "REGULAR"
+msgstr "REGULAR"
+
+#: core/views/arprice_listing_editor.php:331
+#: core/views/arprice_listing_editor.php:385
+#@ ARPrice
+msgid "ANIMATED"
+msgstr "ANIMATED"
+
+#: core/views/arprice_listing_editor.php:366
+#: core/views/arprice_listing_editor.php:419
+#@ ARPrice
+msgid "Select Template"
+msgstr "Select Template"
+
+#: core/views/arprice_listing_editor.php:368
+#: core/views/arprice_listing_editor.php:420
+#@ ARPrice
+msgid "Clone Template"
+msgstr "Clone Template"
+
+#: core/views/arprice_listing_editor.php:421
+#: core/views/arprice_listing_editor.php:1691
+#@ ARPrice
+msgid "Delete Template"
+msgstr "Delete Template"
+
+#: core/views/arprice_listing_editor.php:482
+#@ ARPrice
+msgid "Add New Column"
+msgstr "Add New Column"
+
+#: core/views/arprice_listing_editor.php:508
+#: core/views/arprice_listing_editor.php:701
+#@ ARPrice
+msgid "Cancel"
+msgstr "Cancel"
+
+#: core/views/arprice_listing_editor.php:512
+#@ ARPrice
+msgid "Clone"
+msgstr "Clone"
+
+#: core/views/arprice_listing_editor.php:525
+#@ ARPrice
+msgid "Select / Choose"
+msgstr "Select / Choose"
+
+#: core/views/arprice_listing_editor.php:549
+#@ ARPrice
+msgid "Choose File"
+msgstr "Choose File"
+
+#: core/views/arprice_listing_editor.php:563
+#@ ARPrice
+msgid "Are you sure want to delete this column ?"
+msgstr "Are you sure want to delete this column ?"
+
+#: core/views/arprice_listing_editor.php:564
+#@ ARPrice
+msgid "Are you sure want to delete this row ?"
+msgstr "Are you sure want to delete this row ?"
+
+#: core/views/arprice_listing_editor.php:565
+#@ ARPrice
+msgid "Are you sure you want to delete this table ?"
+msgstr "Are you sure you want to delete this table ?"
+
+#: core/views/arprice_listing_editor.php:568
+#: core/views/arprice_listing_editor.php:823
+#@ ARPrice
+msgid "Video"
+msgstr "Video"
+
+#: core/views/arprice_listing_editor.php:569
+#: core/views/arprice_listing_editor.php:829
+#@ ARPrice
+msgid "Audio"
+msgstr "Audio"
+
+#: core/views/arprice_listing_editor.php:570
+#: core/views/arprice_listing_editor.php:835
+#@ ARPrice
+msgid "Other"
+msgstr "Other"
+
+#: core/views/arprice_listing_editor.php:580
+#: core/views/arprice_listing_editor.php:1778
+#@ ARPrice
+msgid "Choose Icon"
+msgstr "Choose Icon"
+
+#: core/views/arprice_listing_editor.php:654
+#@ ARPrice
+msgid "Ribbon Text"
+msgstr "Ribbon Text"
+
+#: core/views/arprice_listing_editor.php:679
+#@ ARPrice
+msgid "Ribbon Position"
+msgstr "Ribbon Position"
+
+#: core/views/arprice_listing_editor.php:682
+#: core/views/arprice_listing_editor.php:685
+#@ ARPrice
+msgid "Right"
+msgstr "Right"
+
+#: core/views/arprice_listing_editor.php:686
+#@ ARPrice
+msgid "Left"
+msgstr "Left"
+
+#: core/views/arprice_listing_editor.php:790
+#: core/views/arprice_listing_editor.php:1605
+#: core/views/arprice_listing_editor.php:1728
+#@ ARPrice
+msgid "Add Shortcode"
+msgstr "Add Shortcode"
+
+#: core/views/arprice_listing_editor.php:802
+#@ ARPrice
+msgid "Create Shortcode"
+msgstr "Create Shortcode"
+
+#: core/views/arprice_listing_editor.php:808
+#@ ARPrice
+msgid "Choose Shortcode Type"
+msgstr "Choose Shortcode Type"
+
+#: core/views/arprice_import_export.php:231
+#: core/views/arprice_import_export_17jan2015.php:231
+#: core/views/arprice_listing_editor.php:870
+#: core/views/arprice_listing_editor.php:1053
+#: core/views/arprice_listing_editor.php:1124
+#: core/views/arprice_listing_editor.php:1222
+#: core/views/arprice_listing_editor.php:1615
+#: core/views/arprice_listing_editor.php:1738
+#@ ARPrice
+msgid "Add File"
+msgstr "Add File"
+
+#: core/views/arprice_listing_editor.php:891
+#: core/views/arprice_listing_editor.php:935
+#: core/views/arprice_listing_editor.php:979
+#: core/views/arprice_listing_editor.php:1010
+#: core/views/arprice_listing_editor.php:1074
+#: core/views/arprice_listing_editor.php:1148
+#: core/views/arprice_listing_editor.php:1245
+#: core/views/arprice_listing_editor.php:1291
+#: core/views/arprice_listing_editor.php:1338
+#: core/views/arprice_listing_editor.php:1389
+#: core/views/arprice_listing_editor.php:1436
+#: core/views/arprice_listing_editor.php:1484
+#: core/views/arprice_listing_editor.php:1529
+#: core/views/arprice_listing_editor.php:1641
+#@ ARPrice
+msgid "Insert Shortcode"
+msgstr "Insert Shortcode"
+
+#: core/views/arprice_listing_editor.php:1549
+#@ ARPrice
+msgid "Choose Navigation Style"
+msgstr "Choose Navigation Style"
+
+#: core/views/arprice_listing_editor.php:1572
+#@ ARPrice
+msgid "Choose Pagination Style"
+msgstr "Choose Pagination Style"
+
+#: core/views/arprice_listing_editor.php:1708
+#@ ARPrice
+msgid "Please Select a Template"
+msgstr "Please Select a Template"
+
+#: core/views/arprice_listing_editor.php:1764
+#@ ARPrice
+msgid "Add Image"
+msgstr "Add Image"
+
+#: core/widgets/arprice_widget.php:5
+#@ ARPrice
+msgid "Display Pricing Table"
+msgstr "Display Pricing Table"
+
+#: core/vc/class_vc_extend.php:32
+#: core/widgets/arprice_widget.php:6
+#@ ARPrice
+msgid "ARPrice"
+msgstr "ARPrice"
+
+#: core/widgets/arprice_widget.php:14
+#@ ARPrice
+msgid "Title"
+msgstr "Title"
+
+#: core/widgets/arprice_widget.php:17
+#@ ARPrice
+msgid "Table"
+msgstr "Table"
+
+#: core/classes/class.arprice_form.php:4571
+#: core/classes/class.arprice_form.php:4762
+#: core/classes/class.arprice_form.php:4946
+#: core/classes/class.arprice_form.php:5130
+#: core/classes/class.arprice_form.php:5543
+#: core/classes/class.arprice_form.php:5724
+#: core/classes/class.arprice_form.php:5904
+#: core/classes/class.arprice_form.php:6071
+#: core/classes/class.arprice_form.php:6183
+#: core/classes/class.arprice_form.php:6354
+#: core/classes/class.arprice_preview_editor.php:1844
+#: core/classes/class.arprice_preview_editor_option.php:273
+#: core/classes/class.arprice_preview_editor_option.php:453
+#: core/classes/class.arprice_preview_editor_option.php:623
+#: core/classes/class.arprice_preview_editor_option.php:964
+#: core/classes/class.arprice_preview_editor_option.php:1142
+#: core/classes/class.arprice_preview_editor_option.php:1320
+#: core/classes/class.arprice_preview_editor_option.php:1497
+#: core/classes/class.arprice_preview_editor_option.php:1649
+#: core/classes/class.arprice_preview_editor_option.php:1828
+#: core/classes/class.arprice_preview_editor_option.php:2036
+#@ ARPrice
+msgid "Underline"
+msgstr "Underline"
+
+#: core/classes/class.arprice_form.php:4575
+#: core/classes/class.arprice_form.php:4766
+#: core/classes/class.arprice_form.php:4950
+#: core/classes/class.arprice_form.php:5134
+#: core/classes/class.arprice_form.php:5547
+#: core/classes/class.arprice_form.php:5728
+#: core/classes/class.arprice_form.php:5908
+#: core/classes/class.arprice_form.php:6075
+#: core/classes/class.arprice_form.php:6187
+#: core/classes/class.arprice_form.php:6358
+#: core/classes/class.arprice_preview_editor.php:1848
+#: core/classes/class.arprice_preview_editor_option.php:277
+#: core/classes/class.arprice_preview_editor_option.php:457
+#: core/classes/class.arprice_preview_editor_option.php:627
+#: core/classes/class.arprice_preview_editor_option.php:968
+#: core/classes/class.arprice_preview_editor_option.php:1146
+#: core/classes/class.arprice_preview_editor_option.php:1324
+#: core/classes/class.arprice_preview_editor_option.php:1501
+#: core/classes/class.arprice_preview_editor_option.php:1653
+#: core/classes/class.arprice_preview_editor_option.php:1832
+#: core/classes/class.arprice_preview_editor_option.php:2040
+#@ ARPrice
+msgid "Line-through"
+msgstr "Line-through"
+
+#: core/views/arprice_analytics.php:212
+#@ ARPrice
+msgid "Go To Page"
+msgstr "Go To Page"
+
+#: core/views/arprice_analytics.php:214
+#@ ARPrice
+msgid "Go"
+msgstr "Go"
+
+#: core/views/arprice_analytics.php:259
+#@ ARPrice
+msgid "Sorry, there is no record found for analytics"
+msgstr "Sorry, there is no record found for analytics"
+
+#: core/views/arprice_global_settings.php:76
+#@ ARPrice
+msgid "Pricing Table Settings"
+msgstr "Pricing Table Settings"
+
+#: core/views/arprice_global_settings.php:78
+#@ ARPrice
+msgid "Changes Saved Successfully."
+msgstr "Changes Saved Successfully."
+
+#: core/views/arprice_global_settings.php:83
+#@ ARPrice
+msgid "Global Settings"
+msgstr "Global Settings"
+
+#: core/views/arprice_global_settings.php:131
+#@ ARPrice
+msgid "A valid license key entitles you to support and enables automatic upgrades. Also you can get analytics after activate your license. A license key only be used for one installation of WordPress at a time."
+msgstr "A valid license key entitles you to support and enables automatic upgrades. Also you can get analytics after activate your license. A license key only be used for one installation of WordPress at a time."
+
+#: core/views/arprice_global_settings.php:239
+#@ ARPrice
+msgid "Global Custom CSS"
+msgstr "Global Custom CSS"
+
+#: core/classes/class.arprice_preview_editor.php:980
+#: core/views/arprice_global_settings.php:246
+#@ ARPrice
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: core/views/arprice_global_settings.php:268
+#@ ARPrice
+msgid "Resonsive Settings"
+msgstr "Resonsive Settings"
+
+#: core/views/arprice_global_settings.php:277
+#@ ARPrice
+msgid "Mobile View"
+msgstr "Mobile View"
+
+#: core/views/arprice_global_settings.php:310
+#@ ARPrice
+msgid "Desktop View"
+msgstr "Desktop View"
+
+#: core/views/arprice_global_settings.php:310
+#@ ARPrice
+msgid "(Optional)"
+msgstr "(Optional)"
+
+#: core/views/arprice_global_settings.php:326
+#@ ARPrice
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: core/views/arprice_import_export.php:235
+#: core/views/arprice_import_export_17jan2015.php:235
+#@ ARPrice
+msgid "No file Selected"
+msgstr "No file Selected"
+
+#: core/views/arprice_listing_editor.php:43
+#@ ARPrice
+msgid "This ribbon is not supported in this template."
+msgstr "This ribbon is not supported in this template."
+
+#: core/vc/class_vc_extend.php:95
+#: core/views/arprice_listing_editor.php:500
+#@ ARPrice
+msgid "Please Select Your Pricing Table"
+msgstr "Please Select Your Pricing Table"
+
+#: core/views/arprice_listing_editor.php:642
+#@ ARPrice
+msgid "Ribbon Style"
+msgstr "Ribbon Style"
+
+#: core/views/arprice_listing_editor.php:696
+#@ ARPrice
+msgid "Add Ribbon"
+msgstr "Add Ribbon"
+
+#: core/views/arprice_listing_editor.php:706
+#@ ARPrice
+msgid "Remove"
+msgstr "Remove"
+
+#: core/views/arprice_listing_editor.php:716
+#@ ARPrice
+msgid "Choose Color"
+msgstr "Choose Color"
+
+#: core/views/arprice_listing_editor.php:1799
+#@ ARPrice
+msgid "ARPrice Guided Tour"
+msgstr "ARPrice Guided Tour"
+
+#: core/views/arprice_listing_editor.php:1804
+#@ ARPrice
+msgid "Please take a quick tour of basic functionalities."
+msgstr "Please take a quick tour of basic functionalities."
+
+#: core/views/arprice_listing_editor.php:1807
+#@ ARPrice
+msgid "Start Tour"
+msgstr "Start Tour"
+
+#: core/views/arprice_listing_editor.php:1808
+#@ ARPrice
+msgid "Skip Tour"
+msgstr "Skip Tour"
+
+#: core/views/arprice_global_settings.php:293
+#@ ARPrice
+msgid "Tablet View"
+msgstr "Tablet View"
+
+#: core/classes/class.arprice_preview_editor.php:274
+#@ ARPrice
+msgid "Column Width (minimum)"
+msgstr "Column Width (minimum)"
+
+#: core/classes/class.arprice_preview_editor.php:297
+#@ ARPrice
+msgid "Column Width (maximum)"
+msgstr "Column Width (maximum)"
+
+#: core/vc/class_vc_extend.php:33
+#: core/vc/class_vc_extend.php:43
+#@ ARPrice
+msgid "Ultimate Wordpress Pricing Table Plugin"
+msgstr "Ultimate Wordpress Pricing Table Plugin"
+
+#: core/vc/class_vc_extend.php:35
+#@ ARPrice
+msgid "Content"
+msgstr "Content"
+
+#: core/vc/class_vc_extend.php:46
+#@ ARPrice
+msgid "&nbsp;"
+msgstr "&nbsp;"
+

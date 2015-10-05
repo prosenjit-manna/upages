@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1a383f85-9411-4faa-b89e-984979536c62" name="upages_dev" url="http://dev.upages.com.ua">
+        <fileTransfer host="helperua.ftp.ukraine.com.ua" port="21" rootFolder="/upages.com.ua/dev" password="dffddffcdfe6dfc4dfdfdfcbdf9edffd" username="helperua_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

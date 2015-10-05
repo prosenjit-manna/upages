@@ -1,0 +1,581 @@
+/*
+	Plugin Name:ARPrice Plugin
+	Template : arptemplate_3
+*/
+
+.arptemplate_3 {
+	zoom: 1;
+	margin: 0 auto;
+}
+
+.arptemplate_3 .rowlightcolorstyle {
+	background:#EBEFF2;
+}
+
+.arptemplate_3 .rowdarkcolorstyle {
+	background:#EBEFF2;
+}
+
+.arptemplate_3  .white-row {
+	background:#ffffff;
+	padding-top:10px;
+}
+
+.arptemplate_3 .last-child{
+	margin-right:0px !important;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .maincaptioncolumn {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper{
+	float:left;
+	padding:0 !important;
+	position:relative;
+	line-height:normal;
+	text-align:center;
+	transition:all 0.2s linear 0s;
+	-webkit-transition:all 0.2s linear 0s;
+	-moz-transition:all 0.2s linear 0s;
+	-o-transition:all 0.2s linear 0s;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.no_transition{
+	background: #fff;
+	float: left;
+	text-align: center;
+	margin-bottom:40px;
+	padding:0 !important;
+	border:1px solid #dfdada !important;
+	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-o-border-radius: 3px;
+
+	line-height:1.5;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.shadow_effect:not(.no_transition){
+	padding-bottom:40px !important;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper img{
+    background:none;
+    border:none;
+    display:inline;
+    padding:0;
+    vertical-align:inherit !important;
+	box-shadow:none;
+	 -moz-box-shadow:none;
+	  -webkit-box-shadow:none;
+      -o-box-shadow:none;
+	border-radius: 0;
+	 -moz-border-radius: 0;
+	 -webkit-border-radius: 0;
+	 -o-border-radius: 0;  	
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper:not(.no_transition) .arpplan:before{
+	content: "";
+    height: 23px;
+    left: 0;
+    margin-top: 2px;
+    opacity: 0.4;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper:not(.no_transition) .arpplan{
+	background:#ffffff;
+	float:left;
+	box-sizing:content-box !important;
+    margin-bottom: -20px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+	border:1px solid #dfdada !important;
+    transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	-webkit-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	-moz-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	-o-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+.arptemplate_3 .ArpPriceTablecolumndarkbg{
+	background: #ffffff;
+}
+
+.arptemplate_3 .arpcolumnheader {
+	width:100%;
+	float:left;
+	min-height:175px;
+	height:auto;
+}
+
+.arptemplate_3 .arpcolumnheader.has_arp_shortcode{
+	min-height:450px;
+}
+
+.arptemplate_3 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode,
+.arptemplate_3 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode img,
+.arptemplate_3 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode iframe,
+.arptemplate_3 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode .arp_googlemap{
+	float:left;
+	width:100%;
+	min-height:230px !important;
+	height:auto !important;
+	margin-bottom:10px;
+}
+
+.arptemplate_3 .arppricingtablebodycontent {
+	width:100%;
+	float:left;
+}
+
+.arptemplate_3 .arpcolumnfooter{
+    width:100%;
+    float:left;
+	height:75px;
+	padding:10px 0 0;
+	transition:all 0.2s linear 0s;
+	-moz-transition:all 0.2s linear 0s;
+	-webkit-transition:all 0.2s linear 0s;
+	-o-transition:all 0.2s linear 0s;
+}
+
+.arptemplate_3 .maincaptioncolumn .arpcaptiontitle {
+	min-height:121px;
+	height:auto;
+	line-height:normal;
+	padding-top:39px;
+	padding-left:3%;
+	margin:0 0 10px 0;
+	background:#ffffff;
+	overflow:hidden;
+}
+
+.arptemplate_3 .arppricetablecolumntitle .bestPlanTitle {
+	margin: 0;
+	/*line-height:normal !important;*/
+	padding-top:25px;
+	min-height:70px;
+	height:auto;
+	text-transform:uppercase;
+	word-wrap:break-word;
+	text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+.arptemplate_3 .arppricetablecolumnprice{
+	float:left;
+	width:100%;
+	height:auto;
+	text-align:center;
+	margin:20px 0 0 0
+}
+
+.arptemplate_3 .arp_price_value{
+	float:left;
+	width:100%;
+	text-align:center;
+	line-height:normal;
+}
+
+.arptemplate_3 .arp_price_duration{
+	float:left;
+	width:100%;
+	text-transform:uppercase;
+	line-height:normal;
+}
+
+.arptemplate_3 .arppricetablecolumnprice.caption{
+	height:160px;
+	line-height:normal;
+	background:#ffffff;
+	clear:both;
+	border-bottom:2px solid #dfdfdf;
+	color:#666666 !important;
+	font-size:22px;
+	font-weight:bold;
+	font-family:'Open Sans Bold',Arial, Helvetica;
+	text-transform:uppercase;
+	padding-top:25px;
+}
+
+.arptemplate_3 .arppricetablecolumnprice .custom_ribbon{
+	float:left;
+	width:96%;
+	font-family:'Open Sans Bold',Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align:left;
+}
+
+.arptemplate_3 .arppricetablecolumnprice .column_desc{
+	float:left;
+	width:96%;
+	font-family:'Open Sans',Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-align:left;
+}
+
+.arptemplate_3 .planContainer .arppricingtablebodyoptions {
+	float:left;
+	width:100%;
+}
+
+.arptemplate_3 .planContainer .arppricingtablebodyoptions li:not(.arp_last_list_item) {
+	float:left;
+	width:100%;
+	min-height:37px;
+	line-height:normal;
+	padding-top:8px;
+	padding-right:10px;
+}
+
+.arptemplate_3 .planContainer .arppricingtablebodyoptions li span.arp_tooltip{
+	border:none;
+	text-decoration:underline;
+}
+
+.arptemplate_3 .planContainer .arppricingtablebodyoptions li span.caption_li{
+	width:auto;
+	margin-left:10px;
+}
+
+.arptemplate_3 .planContainer .arppricingtablebodyoptions li span.caption_detail{
+	width:auto;
+	text-transform:uppercase;
+}
+
+.arptemplate_3 .arppricetablebutton{
+	float:left;
+	clear:both;
+	width:100%;
+}
+
+.arptemplate_3 .maincaptioncolumn .arppricetablebutton{
+	display: inline-block;
+	height:97px;
+}
+
+.arptemplate_3 .arppricetablebutton .bestPlanButton {
+	background:#ffffff;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing:1px;
+	line-height:normal;
+	display: inline-block;
+	width: 75% !important;
+	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-o-border-radius: 3px;
+
+    padding:0;	
+    outline:none;
+    -weblit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border:none;
+	position:relative;
+}
+
+.arptemplate_3 .arppricetablebutton .bestPlanButton.arp_small_btn{
+	min-height:30px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_3 .arppricetablebutton .bestPlanButton.arp_small_btn{
+	line-height:30px !important;
+}
+
+.arptemplate_3 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+	min-height:40px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_3 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+	line-height:40px !important;
+}
+
+.arptemplate_3 .arppricetablebutton .bestPlanButton.arp_large_btn{
+	min-height:50px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_3 .arppricetablebutton .bestPlanButton.arp_large_btn{
+	line-height:50px !important;
+}
+
+.arptemplate_3 .maincaptioncolumn .arpcaptiontitle {
+	color: #E3E3E3 !important;
+}
+
+.arptemplate_3 .arppricetablecolumntitle.caption{
+	float:left;
+	width:100%;
+	height:54px;
+	line-height:54px;
+	background:#F2F2F2;
+	border-bottom:1px solid #ffffff !important;
+}
+
+.arptemplate_3 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn,
+.arptemplate_3 .ArpPricingTableColumnWrapper.no_animation,
+.arptemplate_3 .ArpPricingTableColumnWrapper.maincaptioncolumn,
+.arptemplate_3 .ArpPricingTableColumnWrapper{
+	width:24%;
+}
+
+@media (min-width:1599px) and (max-width:1899px){
+	.arptemplate_3 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn.no_transition,
+	.arptemplate_3 .ArpPricingTableColumnWrapper.no_animation.no_transition,
+	.arptemplate_3 .ArpPricingTableColumnWrapper.maincaptioncolumn.no_transition,
+	.arptemplate_3 .ArpPricingTableColumnWrapper.no_transition{
+		width:20%;
+	}
+}
+
+@media (min-width:1900px){
+	.arptemplate_3 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn.no_transition,
+	.arptemplate_3 .ArpPricingTableColumnWrapper.no_animation.no_transition,
+	.arptemplate_3 .ArpPricingTableColumnWrapper.maincaptioncolumn.no_transition,
+	.arptemplate_3 .ArpPricingTableColumnWrapper.no_transition{
+		width:20%;
+	}
+}
+
+/**add boder for button**/
+.arptemplate_3 .arpcolumnfooter.selected{
+  box-shadow:none;
+   -moz-box-shadow:none;
+   -webkit-box-shadow:none;
+   -o-box-shadow:none;	
+}
+.arptemplate_3 .arpcolumnfooter.selected button{
+	box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+	-webkit-box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+	-moz-box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+    -o-box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+}
+.ArpPricingTableColumnWrapper_inner_selected.selected
+{
+	margin-top:-1px !important;
+	margin-bottom:36px !important;
+}
+.arppricingtablebodycontent.selected
+{
+	margin-bottom:0px !important;
+}
+.arppricingtablebodycontent_inner_selected.selected{ 
+	margin:-2px -2px 0 0 !important;
+	padding-bottom:1px;
+}
+
+
+/*
+	color: Black
+*/
+.arptemplate_3.arpblack .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle, 
+.arptemplate_3.arpblack .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle{
+	color:#E94B3F !important;
+}
+.arptemplate_3.arpblack .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpblack .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice{
+	background:#E84C3D;
+}
+.arptemplate_3.arpblack .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpblack .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span {
+	color:#D15122 !important;
+}
+
+.arptemplate_3.arpblack .arp_allcolumnsdiv .arppricetablecolumnprice{background:#39434D;}
+
+
+/*
+
+	color: Green
+*/
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle,
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle
+ {color:#455048 !important;}
+
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#404D43;}
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span
+{
+	color:#24B968 !important;
+}
+
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .arppricetablecolumnprice{background:#24B968;}
+.arptemplate_3.arpgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#06A44F !important;}
+/*
+	color: Orange
+*/
+.arptemplate_3.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle,
+.arptemplate_3.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle
+ {color:#45464A !important;}
+.arptemplate_3.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#4D443B;}
+.arptemplate_3.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span{
+	color:#C6662A !important;
+}
+.arptemplate_3.arporange .arp_allcolumnsdiv .arppricetablecolumnprice{background:#E87C3C;}
+.arptemplate_3.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#BE4D09 !important;}
+/*
+	color: Red
+*/
+.arptemplate_3.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle,
+.arptemplate_3.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle
+ {color:#45464A !important;}
+.arptemplate_3.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#39434D;}
+.arptemplate_3.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span
+{
+	color:#CD4312 !important;
+}
+.arptemplate_3.arpred .arp_allcolumnsdiv .arppricetablecolumnprice{background:#E84C3D;}
+.arptemplate_3.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#E74C3A !important;}
+/*
+	color: Teal
+*/
+.arptemplate_3.arpteal .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle,
+.arptemplate_3.arpteal .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle
+ {color:#45464A !important;}
+.arptemplate_3.arpteal .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpteal .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#39484D;}
+.arptemplate_3.arpteal .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpteal .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span{
+	color:#60A4A5 !important;
+}
+.arptemplate_3.arpteal .arp_allcolumnsdiv .arppricetablecolumnprice{background:#6DBEBF;}
+.arptemplate_3.arpteal .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#489696 !important;}
+/*
+	color: Yellow
+*/
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle ,
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle {color:#45464A !important;}
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice{background:#595853;}
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span
+{
+	color:#B9901A !important;
+}
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .arppricetablecolumnprice{background:#EBBF44;}
+.arptemplate_3.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#B98F19 !important;}
+/*
+	color: Blue
+*/
+.arptemplate_3.arpblue .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle,
+.arptemplate_3.arpblue .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle 
+{color:#45464A !important;}
+.arptemplate_3.arpblue .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpblue .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#63686E;}
+.arptemplate_3.arpblue .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpblue .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span
+{
+	color:#416E98 !important;
+}
+.arptemplate_3.arpblue .arp_allcolumnsdiv .arppricetablecolumnprice{background:#316493;}
+.arptemplate_3.arpblue .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#316493 !important;}
+/*
+	color: Darkgreen
+*/
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle ,
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle 
+{color:#454648 !important;}
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#63645C;}
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span{
+	color:#69974E !important;
+}
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .arppricetablecolumnprice{background:#7FB45C;}
+.arptemplate_3.arpdarkgreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#669748 !important;}
+
+/*
+	color: Maroon
+*/
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle,
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle
+ {color:#454648 !important;}
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#36312D;}
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span
+{
+	color:#A64445 !important;
+}
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .arppricetablecolumnprice{background:#9A272A;}
+.arptemplate_3.arpmaroon .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#9A2627 !important;}
+
+/*
+	color: Purple
+*/
+.arptemplate_3.arppurple .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .bestPlanTitle,
+.arptemplate_3.arppurple .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .bestPlanTitle 
+{color:#45464A !important;}
+.arptemplate_3.arppurple .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricetablecolumnprice,
+.arptemplate_3.arppurple .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricetablecolumnprice
+{background:#60636C;}
+.arptemplate_3.arppurple .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:hover .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span,
+.arptemplate_3.arppurple .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.column_highlight .arppricingtablebodyoptions  li:not(.rowlightcolorstyle):not(.rowdarkcolorstyle) span
+{
+	color:#79538E !important;
+}
+.arptemplate_3.arppurple .arp_allcolumnsdiv .arppricetablecolumnprice{background:#6F4786;}
+.arptemplate_3.arppurple .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .bestPlanTitle {color:#6F4786 !important;}
+
+
+
+
+
+
+.arptemplate_3 .arp_allcolumnsdiv .arppricetablecolumnprice .arp_price_wrapper {
+margin-top:10px;
+}
+.arptemplate_3 .arp_allcolumnsdiv .column_description {
+	padding:8px 18px;
+}
+
+.arptemplate_3 .ArpPriceTable ul li{
+	padding-right:10px !important;
+}
+
+/* Hover Effect Change */
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover,
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight{
+	margin-bottom:0px;
+	padding:0px;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpplan,
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpplan{
+	box-shadow:12px 0 15px -4px rgba(0, 0, 0, 0.2), -12px 0 8px -4px rgba(0, 0, 0, 0.2);
+	margin-top:20px;
+	top:-20px;
+}
+
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpcolumnfooter,
+.arptemplate_3 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpcolumnfooter{
+	height:115px !important;
+	padding:30px 0 0 0;
+}
