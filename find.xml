@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '/home/jazzman/www/upages/wp-content/themes/javo-directory/assets/css/chosen.min.css'" />
-    <option name="defaultScopeName" value="File '/home/jazzman/www/upages/wp-content/themes/javo-directory/assets/css/chosen.min.css'" />
+    <option name="customScope" value="Directory '/home/jazzman/www/generators/gradient/stylesheets'" />
+    <option name="defaultScopeName" value="Directory '/home/jazzman/www/generators/gradient/stylesheets'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '/home/jazzman/www/upages/wp-content/themes/javo-directory/assets/css/chosen.min.css'" />
+    <option name="SEARCH_SCOPE" value="Directory '/home/jazzman/www/generators/gradient/stylesheets'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
