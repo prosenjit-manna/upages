@@ -1,0 +1,468 @@
+/*
+	Plugin Name:ARPrice Plugin
+	Template : arptemplate_14
+*/
+
+.arptemplate_14 {
+	zoom: 1;
+	margin: 0 auto;
+}
+
+.arptemplate_14 .last-child{
+	margin-right:0px !important;
+}
+
+.arptemplate_14 #ArpPricingTableColumns .maincaptioncolumn {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+.arptemplate_14 #ArpPricingTableColumns .ArpPricingTableColumnWrapper{
+	float: left;
+	text-align: center;
+	padding:0 !important;
+	border: 1px solid #d8e7f0;
+	margin-bottom:40px;
+	line-height:normal;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+}
+
+.arptemplate_14 #ArpPricingTableColumns .ArpPricingTableColumnWrapper img{
+    background:none;
+    border:none;
+    display:inline;
+    padding:0;
+    vertical-align:inherit !important;
+	box-shadow:none;
+	  -moz-box-shadow:none;
+	  -webkit-box-shadow:none;
+      -o-box-shadow:none;	
+	border-radius: 0;
+	 -moz-border-radius: 0;
+	 -webkit-border-radius: 0;
+	 -o-border-radius: 0;  	
+}
+
+.arptemplate_14 #ArpPricingTableColumns .ArpPricingTableColumnWrapper .arpplan {
+	margin:0 !important;
+}
+
+.arptemplate_14 .arpcolumnheader {
+	width:100%;
+	float:left;
+	height:auto;
+}
+
+.arptemplate_14 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.shadow_effect:not(.no_transition){
+	margin-bottom:40px !important;
+}
+
+.arptemplate_14 .arpcolumnheader.has_arp_shortcode{
+	min-height:450px;
+}
+
+.arptemplate_14 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode,
+.arptemplate_14 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode img,
+.arptemplate_14 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode iframe,
+.arptemplate_14 .arpcolumnheader.has_arp_shortcode .arp_header_shortcode .arp_googlemap{
+	float:left;
+	width:100%;
+	min-height:230px !important;
+	height:auto;
+	margin-bottom:10px;
+}
+
+.arptemplate_14 .arppricingtablebodycontent {
+	width:100%;
+	float:left;
+	padding-bottom:150px;
+}
+
+.arptemplate_14 .arpcolumnfooter{
+    width:100%;
+    float:left;
+}
+
+.arptemplate_14 .maincaptioncolumn .arpcaptiontitle {
+	min-height:121px;
+	height:auto;
+	line-height:normal;
+	padding-top:39px;
+	padding-left:3%;
+	margin:0 0 10px 0;
+	overflow:hidden;
+}
+
+.arptemplate_14 .arppricetablecolumntitle .bestPlanTitle {
+	margin: 0;
+	line-height:normal !important;
+	padding-top:15px;
+	text-transform:uppercase;
+	min-height:55px;
+	height:auto;
+	text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+.arptemplate_14 .arppricetablecolumnprice{
+	float:left;
+	width:100%;
+}
+
+.arptemplate_14 .arp_price_value{
+	float:left;
+	width:100%;
+	line-height:normal;
+	position:relative;
+	top:10px;
+}
+
+.arptemplate_14 .arp_price_duration{
+	float:left;
+	width:100%;
+	line-height:normal;
+	position:relative;
+}
+
+.arptemplate_14 .arp_currency{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:34px;
+	font-weight:bold;
+}
+
+.arptemplate_14 .arppricetablecolumnprice.caption{
+	height:160px;
+	line-height:normal;
+	clear:both;
+	border-bottom:2px solid #dfdfdf;
+	color:#666666 !important;
+	font-size:22px;
+	font-weight:bold;
+	font-family:'Open Sans Bold',Arial, Helvetica;
+	text-transform:uppercase;
+	padding-top:25px;
+}
+
+.arptemplate_14 .arppricetablecolumnprice .custom_ribbon{
+	float:left;
+	width:96%;
+	font-family:'Open Sans Bold',Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align:left;
+}
+
+.arptemplate_14 .arppricetablecolumnprice .column_desc{
+	float:left;
+	width:96%;
+	font-family:'Open Sans',Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-align:left;
+}
+
+.arptemplate_14 .planContainer .arppricingtablebodyoptions {
+	float:left;
+	width:100%;
+}
+
+.arptemplate_14 .planContainer .arppricingtablebodyoptions li {
+	float:left;
+	width:100%;
+	height:auto;
+	line-height:normal;
+	padding:3px 10px;
+	border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.arptemplate_14 .planContainer .arppricingtablebodyoptions li span.arp_tooltip{
+	border:none;
+	text-decoration:underline;
+}
+
+.arptemplate_14 .planContainer .arppricingtablebodyoptions li span.caption_li{
+	float:left;
+	width:auto;
+	margin-left:10px;
+}
+
+.arptemplate_14 .planContainer .arppricingtablebodyoptions li span.caption_detail{
+	float:right;
+	width:auto;
+	text-align:right;
+	margin-right:10px;
+}
+
+.arptemplate_14 .arppricetablebutton{
+	float:left;
+	clear:both;
+	width:100%;
+	height:100px;
+}
+
+.arptemplate_14 .maincaptioncolumn .arppricetablebutton{
+	display: inline-block;
+	height:97px;
+}
+
+.arptemplate_14 .column_description{
+	float:left;
+	width:100%;
+	padding-bottom:20px;
+}
+
+.arptemplate_14 .arppricetablebutton .bestPlanButton {
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing:1px;
+	line-height:normal;
+	display: inline-block;
+	width: 60% !important;
+	border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-o-border-radius: 4px;
+
+    padding:0;
+    outline:none;
+	position:relative;
+	top:25px;
+    -weblit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border:none;
+	cursor:pointer;
+}
+
+.arptemplate_14 .arppricetablebutton .bestPlanButton.arp_small_btn{
+	min-height:35px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_14 .arppricetablebutton .bestPlanButton.arp_small_btn{
+	line-height:35px !important;
+}
+
+.arptemplate_14 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+	min-height:45px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_14 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+	line-height:45px !important;
+}
+
+.arptemplate_14 .arppricetablebutton .bestPlanButton.arp_large_btn{
+	min-height:55px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_14 .arppricetablebutton .bestPlanButton.arp_large_btn{
+	line-height:55px !important;
+}
+
+.arptemplate_14 .maincaptioncolumn .arpcaptiontitle {
+	color: #E3E3E3 !important;
+}
+
+.arptemplate_14 .arppricetablecolumntitle.caption{
+	float:left;
+	width:100%;
+	height:54px;
+	line-height:54px;
+	background:#F2F2F2;
+	border-bottom:1px solid #ffffff !important;
+}
+
+.arptemplate_14 .ArpPricingTableColumnWrapper{
+	width:23%;
+}
+
+@media ( max-width: 480 ){
+	.arptemplate_14 .ArpPricingTableColumnWrapper{
+		min-width:95%;
+	}
+}
+
+@media (min-width:1599px) and (max-width:1899px){
+	.arptemplate_14 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn.no_transition,
+	.arptemplate_14 .ArpPricingTableColumnWrapper.no_animation.no_transition,
+	.arptemplate_14 .ArpPricingTableColumnWrapper.maincaptioncolumn.no_transition,
+	.arptemplate_14 .ArpPricingTableColumnWrapper.no_transition{
+		width:18%;
+	}
+}
+
+@media (min-width:1900px){
+	.arptemplate_14 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn.no_transition,
+	.arptemplate_14 .ArpPricingTableColumnWrapper.no_animation.no_transition,
+	.arptemplate_14 .ArpPricingTableColumnWrapper.maincaptioncolumn.no_transition,
+	.arptemplate_14 .ArpPricingTableColumnWrapper.no_transition{
+		width:18%;
+	}
+}
+
+/**add boder for button**/
+.arptemplate_14 .arpcolumnfooter.selected{
+	box-shadow:none;
+	  -moz-box-shadow:none;
+	  -webkit-box-shadow:none;
+      -o-box-shadow:none;
+}
+.arptemplate_14 .arpcolumnfooter.selected button{
+	box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+	-webkit-box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+	-moz-box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+	-o-box-shadow:0px 0px 0px 2px rgba(35, 242, 14, 1) !important;
+
+}
+.ArpPricingTableColumnWrapper_inner_selected.selected
+{
+	margin-top:-1px !important;
+	margin-bottom:36px !important;
+}
+.arppricingtablebodycontent.selected
+{
+	margin-bottom:0px !important;
+}
+.arppricingtablebodycontent_inner_selected.selected{ 
+	margin:-2px -2px 0 0 !important;
+	padding-bottom:1px;
+}
+
+.arptemplate_14 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .arpplan{
+	float:left;
+	width:100%;
+	background-image:url(../../images/animated_images/animate_top.png);
+	background-repeat:repeat-x;
+	background-position:top center;
+	background-color:#ffffff;
+}
+
+.arptemplate_14 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .arpplan .planContainer{
+	float:left;
+	width:100%;
+	background-image:url(../../images/animated_images/animate.gif);
+	background-position:bottom left;
+	background-repeat:repeat-x;
+}
+
+.ArpPricingTableColumnWrapper_inner_selected.selected
+{
+	margin-top:-1px !important;
+	margin-bottom:39px !important;
+}
+.arppricingtablebodycontent.selected
+{
+	margin-bottom:0px !important;
+	padding-bottom:150px;
+}
+div.arppricingtablebodycontent_inner_selected.selected {
+    margin: -2px 0 -4px !important;
+    padding-bottom: 152px !important;
+}
+.arppricingtablebodycontent.selected:not(.arppricingtablebodycontent_inner_selected){
+    margin: -3px 0 0 !important;
+    padding-bottom: 147px;
+}
+
+.arppricingtablebodycontent.selected
+{
+	margin:-3px -3px 0 0;
+}
+.arptemplate_14 #ArpPricingTableColumns .ArpPricingTableColumnWrapper_inner_selected.selected
+{
+	border:2px dashed #ff0000 !important;
+}
+
+
+/*
+	Template : arptemplate_14
+	Color : Orange
+*/
+
+.arptemplate_14.arporange .bestPlanButton{
+	background:#F15A23;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Lime Green
+*/
+
+.arptemplate_14.arplimegreen .bestPlanButton{
+	background:#2DCC70;
+}
+
+/*
+	Template : arptemplate_14
+	Color	: Blue
+*/
+
+.arptemplate_14.arpblue .bestPlanButton{
+	background:#3598DB;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Violet
+*/
+
+.arptemplate_14.arpviolet .bestPlanButton{
+	background:#9661D7;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Light Orange
+*/
+
+.arptemplate_14.arplightorange .bestPlanButton{
+	background:#F49C14;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Cyan
+*/
+
+.arptemplate_14.arpcyan .bestPlanButton{
+	background:#1BBC9B;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Red
+*/
+
+.arptemplate_14.arpred .bestPlanButton{
+	background:#E52937;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Yellow
+*/
+
+.arptemplate_14.arpyellow .bestPlanButton{
+	background:#9CC31A;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Gray
+*/
+
+.arptemplate_14.arpgray .bestPlanButton{
+	background:#757575;
+}
+
+/*
+	Template : arptemplate_14
+	Color : Dark Blue
+*/
+
+.arptemplate_14.arpdarkblue .bestPlanButton{
+	background:#384C81
+}

@@ -1,0 +1,237 @@
+acronym{
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+dd{
+	margin-bottom: 3px;
+}
+legend{
+	font-weight: bold;
+}
+.caption{
+background: url(../images/nav_bg.jpg) repeat-x;
+border-bottom: 1px inset;
+caption-side: top;
+color: #fff;
+display: block;
+font-size:110%;
+font-weight:bold;
+height: 30px;
+margin: 0px;
+padding: 0px;
+text-align:center;
+white-space: nowrap;
+}
+.caption a{
+	color: #fff;
+}
+p.description{
+	background: #fcfcff;
+	border: 1px outset;
+	font-size: 80%;
+	width: 95%;
+	margin-top:5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+}
+.even{
+	background: #eee;
+}
+h1{
+	margin: 0px;
+	margin-bottom: 5px;
+}
+h1 img{
+	margin-right:3px;
+	vertical-align: middle;
+}
+#menu h5{
+	margin: 0px;
+	margin-top: 3px;
+}
+div.charts{
+margin-right:320px
+}
+div.fader{
+background-color:#4682B4;
+border-right:1px solid #fff;
+border-top:1px solid #fff;
+height:20px;
+position:relative
+}
+td.left{
+text-align:left
+}
+td.right{
+text-align:right
+}
+.chart-picture{
+border:1px outset
+}
+.graph{
+background-color:#B0C4DE;
+border:1px solid black;
+width:100px
+}
+.inline{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.inline li{
+	display: inline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.right{
+	text-align: right;
+}
+.SQLQuery{
+border:1px solid black;
+font:10pt courier;
+margin-left:25px;
+margin-right:25px
+}
+.tabular{
+font-size:85%;
+min-width: 180px;
+}
+.today{
+	background: #FABC00;
+	border: 1px outset;
+	color: #00f;
+}
+#calendar{
+	background: #fcfcff;
+	border: 1px outset;
+	padding: 3px;
+	width: 190px;
+}
+#chart-description{
+font-size:small
+}
+#stcontent{
+clear:left;
+margin-right:210px;
+}
+#menu{
+	margin-left: 2px;
+	float: left;
+	clear:both;
+	margin-bottom: 5px;
+}
+#rightSide{
+	float: right;
+	top: 0px;
+}
+#stfooter{
+	clear: both;
+	font-size: 75%;
+	text-align: center;
+}
+#hits .caption a{
+	background: url(../images/hits_icon_24.gif) no-repeat;
+	background-position: 2px 2px;
+	color: #fff;
+	display: block;
+	height: 34px;
+	text-align: left;
+	padding-left: 30px;
+}
+#hits,#pages,#userAgents,#referrers,#queryTerms{
+border: 3px double #999;
+margin:0.5em;
+overflow: visible;
+}
+#hits{
+margin: 0px;
+width: 200px;
+}
+#hits table,#pages table,#userAgents table, #referrers table, #queryTerms table{
+	background: #fff;
+}
+#hits table{
+	_width: 100%;
+}
+#rightSide > #hits table, #stcontent > #pages table, #stcontent > #userAgents table, #stcontent > #referrers table, #stcontent > #queryTerms table{
+	width: 99.9%;
+}
+#hits table thead,#pages table thead,#userAgents table thead, #referrers table thead, #queryTerms table thead,#hits table tfoot,#pages table tfoot,#userAgents table tfoot, #referrers table tfoot, #queryTerms table tfoot{
+	background: #ddd;
+	color: #000;
+}
+#pages .caption a{
+	background: url(../images/pages_icon_24.gif) no-repeat;
+	background-position: 2px 2px;
+	color: #fff;
+	display: block;
+	height: 34px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#queryTerms .caption a{
+	background: url(../images/searches_icon_24.gif) no-repeat;
+	background-position: 2px 2px;
+	color: #fff;
+	display: block;
+	height: 34px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#referrers .caption a{
+	background: url(../images/referrers_icon_24.gif) no-repeat;
+	background-position: 2px 2px;
+	color: #fff;
+	display: block;
+	height: 34px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#reporter_navigation{
+display:inline;
+margin:0px;
+padding:0px
+}
+#reporter_navigation li{
+display:inline;
+margin:0px;
+padding:2px
+}
+#summaryTable{
+	width: 100%;
+}
+#summaryTable tr td{
+	vertical-align: top;
+}
+#timeframe{
+border:1px outset;
+border-bottom:0px none;
+display:inline;
+margin:0px;
+padding:0px
+}
+#timeframe li{
+background-color:#F0F8FF;
+display:inline;
+padding-left:2px;
+padding-right:2px
+}
+#timeframe li.selected{
+background-color:transparent;
+font-weight:bold;
+padding-left:2px;
+padding-right:2px
+}
+#userAgents .caption a{
+	background: url(../images/user_agents_icon_24.gif) no-repeat;
+	background-position: 2px 2px;
+	color: #fff;
+	display: block;
+	height: 34px;
+	text-align: left;
+	padding-left: 30px;
+}

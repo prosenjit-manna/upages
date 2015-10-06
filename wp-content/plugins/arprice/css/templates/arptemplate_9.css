@@ -1,0 +1,661 @@
+/*
+	Plugin Name:ARPrice Plugin
+	Template : arptemplate_9
+*/
+
+.arptemplate_9 {
+	zoom: 1;
+	margin: 0 auto;
+}
+
+
+.arptemplate_9  .white-row {
+	padding-top:10px;
+}
+
+.arptemplate_9 .last-child{
+	margin-right:0px !important;
+}
+
+.arptemplate_9 #ArpPricingTableColumns .maincaptioncolumn {
+	float: left;
+	text-align: left;
+}
+
+.arptemplate_9 .maincaptioncolumn .arpcolumnheader  .arpcaptiontitle {
+	background:#EBEAEF;
+	border-left:1px solid #D9D9D9;
+	border-top:1px solid #D9D9D9;
+	border-radius:2px 0 0 0px;
+		-moz-border-radius:2px 0 0 0px;
+		-webkit-border-radius:2px 0 0 0px;
+		-o-border-radius:2px 0 0 0px;
+
+}
+
+
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper{
+	float:left;
+	padding:0 !important;
+	position:relative;
+	line-height:normal;
+	text-align:center;
+	transition:all 0.2s linear 0s;
+	-webkit-transition:all 0.2s linear 0s;
+	-moz-transition:all 0.2s linear 0s;
+	-o-transition:all 0.2s linear 0s;
+}
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.no_transition{
+	float: left;
+	text-align: center;
+	margin-bottom:40px;
+	padding:0 !important;
+	line-height:normal;
+	-webkit-transition:all .5s;
+	   -moz-transition:all .5s;
+	     -o-transition:all .5s;
+		    transition:all .5s;
+}
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.shadow_effect:not(.no_transition){
+	padding-bottom:40px !important;
+}
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper img{
+    background:none;
+    border:none;
+    display:inline;
+    padding:0;
+    vertical-align:inherit !important;
+	box-shadow:none;
+	  -moz-box-shadow:none;
+	  -webkit-box-shadow:none;
+      -o-box-shadow:none;	
+	border-radius: 0;
+	 -moz-border-radius: 0;
+	 -webkit-border-radius: 0;
+	 -o-border-radius: 0;    
+}
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper:not(.no_transition) .arpplan:before{
+	content: "";
+    height: 23px;
+    left: 0;
+    margin-top: 2px;
+    opacity: 0.4;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper:not(.no_transition) .arpplan{
+	float:left;
+	box-sizing:content-box !important;
+    margin-bottom: -20px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+	width:100%;
+    transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	-webkit-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	-moz-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	-o-transition: margin-top 0.2s linear 0s, top 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+.arptemplate_9 .arpcolumnheader {
+	width:100%;
+	float:left;
+	min-height:165px;
+	height:auto;
+}
+
+.arptemplate_9 .maincaptioncolumn .arppricingtablebodycontent{
+	float:left;
+	width:100%;
+	border-radius:3px 0 0 3px;
+		-moz-border-radius:3px 0 0 3px;
+		-webkit-border-radius:3px 0 0 3px;
+		-o-border-radius:3px 0 0 3px;
+
+	border-left:1px solid #D9D9D9;
+	border-top:1px solid #D9D9D9;
+	
+}
+.arptemplate_9 .maincaptioncolumn .arppricingtablebodycontent li{
+	background:#F3F3F5;
+}
+.arptemplate_9 .maincaptioncolumn .arppricingtablebodycontent .rowlightcolorstyle{
+	background:#EBEAEF;
+}
+
+
+
+.arptemplate_9 .arppricingtablebodycontent{
+	width:100%;
+	float:left;
+}
+
+.arptemplate_9 .maincaptioncolumn .arppricingtablebodycontent ul li{
+	border-bottom:1px solid #D9D9D9;
+}
+
+.arptemplate_9 .arpcolumnfooter{
+    width:100%;
+    float:left;
+	height:100px;
+	padding:25px 0 0;
+	border-bottom:1px solid #cecece;
+	transition:all 0.2s linear 0s;
+	-moz-transition:all 0.2s linear 0s;
+	-webkit-transition:all 0.2s linear 0s;
+	-o-transition:all 0.2s linear 0s;
+}
+
+.arptemplate_9 .maincaptioncolumn .arpcolumnfooter{
+	float:left;
+	width:100%;
+	height:0px;
+	border-bottom:none;
+}
+
+.arptemplate_9 .maincaptioncolumn .arpcaptiontitle {
+	height:95px;
+	line-height:normal;
+	padding-left:3%;
+	margin:70px 0 0 0;
+	overflow:hidden;
+	padding-top:31px;
+}
+
+.arptemplate_9 .arp_header_shortcode,
+.arptemplate_9 .arp_header_shortcode img,
+.arptemplate_9 .arp_header_shortcode iframe,
+.arptemplate_9 .arp_header_shortcode video,
+.arptemplate_9 .arp_header_shortcode .arp_googlemap{
+	float:left;
+	width:100%;
+	min-height:180px !important;
+	height:auto;
+}
+.arptemplate_9 .maincaptioncolumn .arpcaptiontitle.has_header_code{
+	min-height:301px;
+}
+
+.arptemplate_9 .arppricetablecolumntitle .bestPlanTitle {
+	margin: 0;
+	float:left;
+	width:100%;
+	min-height:70px;
+	height:auto;
+	line-height:normal;
+	text-shadow:0 1px 0 rgba(0,0,0,0.4);
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.arptemplate_9 .arppricetablecolumnprice {
+	height: 95px;
+	line-height: normal;
+	margin: 0;
+	padding-top:0px;
+	float:left;
+	width:100%;
+	background:rgba(0,0,0,0.3);
+}
+
+.arptemplate_9 .arppricetablecolumnprice .arp_price_wrapper{
+	float:left;
+	width:100%;
+	height:90%;
+	padding:10px;
+}
+
+.arptemplate_9 .arppricetablecolumnprice .arp_price_wrapper .arp_price_value,
+.arptemplate_9 .arppricetablecolumnprice .arp_price_wrapper .arp_price_duration{
+	float:left;
+	width:100%;
+}
+
+.arptemplate_9 .planContainer .arppricingtablebodyoptions {
+	margin-top: 160px;
+	margin-bottom:0px;
+}
+
+.arptemplate_9 .planContainer .arppricingtablebodyoptions li {
+	line-height: normal;
+	margin: 0 !important;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:38px;
+	padding-top:9px;
+}
+
+.arptemplate_9 .maincaptioncolumn li {
+	line-height:2.5;
+	padding-left:10px;
+	margin: 0 !important;
+}
+
+.arptemplate_9 .maincaptioncolumn .arpcolumnfooter{
+	display: inline-block;
+	height:0px;
+}
+
+.arptemplate_9 .arppricetablebutton .bestPlanButton {
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing:1px;
+	line-height:normal;
+	display: inline-block;
+	width: 85% !important;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-o-border-radius: 5px;
+
+    padding:0;
+    border:none;
+    outline:none;
+	cursor:pointer;
+	position:relative;
+	background:#FDFDFD;
+	padding-top:5px;
+}
+
+.arptemplate_9 .arppricetablebutton .bestPlanButton.arp_small_btn{
+	min-height:30px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_9 .arppricetablebutton .bestPlanButton.arp_small_btn{
+	line-height:30px !important;
+}
+
+.arptemplate_9 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+	min-height:45px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_9 .arppricetablebutton .bestPlanButton.arp_medium_btn{
+	line-height:45px !important;
+}
+
+.arptemplate_9 .arppricetablebutton .bestPlanButton.arp_large_btn{
+	min-height:55px !important;
+	height:auto;
+}
+
+:-o-prefocus, .arptemplate_9 .arppricetablebutton .bestPlanButton.arp_large_btn{
+	line-height:55px !important;
+}
+
+.arptemplate_9 .arp_allcolumnsdiv .arpplan .arppricetablecolumntitle{
+	min-height:70px;
+	height:auto;
+	float:left;
+	width:100%;
+}
+.arptemplate_9 .maincaptioncolumn .arpcaptiontitle {
+	color: #E3E3E3;
+}
+
+/*
+	Button Hover Effects
+*/
+
+.arptemplate_9 .arp_allcolumnsdiv .arppricetablebutton .bestPlanButton{
+	transition:background .5s;
+	-webkit-transition:background .5s;
+	-moz-transition:background .5s;
+	-o-transition:background .5s;
+	box-shadow:0 1px 2px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.4);
+	-o-box-shadow:0 1px 2px rgba(0,0,0,0.4);
+}
+
+.arptemplate_9 .arp_allcolumnsdiv .arppricetablebutton .bestPlanButton:hover{
+	transition:background .5s;
+	-webkit-transition:background .5s;
+	-moz-transition:background .5s;
+	-o-transition:background .5s;
+}
+
+.arptemplate_9 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn,
+.arptemplate_9 .ArpPricingTableColumnWrapper.no_animation,
+.arptemplate_9 .ArpPricingTableColumnWrapper.maincaptioncolumn,
+.arptemplate_9 .ArpPricingTableColumnWrapper{
+	width:19%;
+}
+
+@media (min-width:1599px) and (max-width:1899px){
+	.arptemplate_9 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn.no_transition,
+	.arptemplate_9 .ArpPricingTableColumnWrapper.no_animation.no_transition,
+	.arptemplate_9 .ArpPricingTableColumnWrapper.maincaptioncolumn.no_transition,
+	.arptemplate_9 .ArpPricingTableColumnWrapper.no_transition{
+		width:16%;
+	}
+}
+
+@media (min-width:1900px){
+	.arptemplate_9 .ArpPricingTableColumnWrapper.no_animation.maincaptioncolumn.no_transition,
+	.arptemplate_9 .ArpPricingTableColumnWrapper.no_animation.no_transition,
+	.arptemplate_9 .ArpPricingTableColumnWrapper.maincaptioncolumn.no_transition,
+	.arptemplate_9 .ArpPricingTableColumnWrapper.no_transition{
+		width:15%;
+	}
+}
+.ArpPricingTableColumnWrapper_inner_selected.selected
+{
+	margin-top:-2px !important;
+	margin-bottom:38px !important;
+}
+
+.arptemplate_9 .arpplan{ float:left; }
+
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn):hover .arpplan,
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn).column_highlight .arpplan{
+	background:#E9EAEE;
+}
+
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn):hover .arpplan .bestPlanTitle,
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn).column_highlight .arpplan .bestPlanTitle{
+	color:#000000 !important;
+}
+
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn):hover .arpplan .arppricetablecolumnprice,
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn).column_highlight .arpplan .arppricetablecolumnprice{
+	background:rgba(0,0,0,0.5);
+}
+
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn):hover .arpplan .arppricingtablebodycontent ul li,
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn).column_highlight .arppricingtablebodycontent ul li{
+	border-bottom:1px solid #D4D5D7;
+	color:#000000 !important;
+}
+
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn):hover .arpplan .bestPlanButton,
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper.no_animation:not(.maincaptioncolumn).column_highlight .bestPlanButton{
+	background:#616161;
+	color:#ffffff !important;
+}
+
+.arptemplate_9 .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan .arppricingtablebodycontent ul li{
+	border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+/*
+	Template : arptemplate_9
+	Color Scheme : multicolor
+*/
+
+.arptemplate_9.arpmulticolor .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .column_1{
+	background: #7101AD;
+	background-color:#7101AD;
+	background-image:-moz-linear-gradient(top, #7101AD, #2670E9);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#7101AD), to(#2670E9));
+	background-image:-webkit-linear-gradient(top, #7101AD, #2670E9);
+	background-image:-o-linear-gradient(top, #7101AD, #2670E9);
+	background-image:linear-gradient(to bottom, #7101AD, #2670E9);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7101AD', endColorstr='#2670E9', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#7101AD, endColorstr=#2670E9, GradientType=0)";
+}
+
+.arptemplate_9.arpmulticolor .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .column_2{
+	background: #CBBA62;
+	background-color:#CBBA62;
+	background-image:-moz-linear-gradient(top, #CBBA62, #37B0C5);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#CBBA62), to(#37B0C5));
+	background-image:-webkit-linear-gradient(top, #CBBA62, #37B0C5);
+	background-image:-o-linear-gradient(top, #CBBA62, #37B0C5);
+	background-image:linear-gradient(to bottom, #CBBA62, #37B0C5);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CBBA62', endColorstr='#37B0C5', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#CBBA62, endColorstr=#37B0C5, GradientType=0)";
+}
+
+.arptemplate_9.arpmulticolor .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .column_3{
+	background: #AD103D;
+	background-color:#AD103D;
+	background-image:-moz-linear-gradient(top, #AD103D, #4D0064);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#AD103D), to(#4D0064));
+	background-image:-webkit-linear-gradient(top, #AD103D, #4D0064);
+	background-image:-o-linear-gradient(top, #AD103D, #4D0064);
+	background-image:linear-gradient(to bottom, #AD103D, #4D0064);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AD103D', endColorstr='#4D0064', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#AD103D, endColorstr=#4D0064, GradientType=0)";
+}
+
+.arptemplate_9.arpmulticolor .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .column_4{
+	background: #FD7C21;
+	background-color:#FD7C21;
+	background-image:-moz-linear-gradient(top, #FD7C21, #AF1E00);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#FD7C21), to(#AF1E00));
+	background-image:-webkit-linear-gradient(top, #FD7C21, #AF1E00);
+	background-image:-o-linear-gradient(top, #FD7C21, #AF1E00);
+	background-image:linear-gradient(to bottom, #FD7C21, #AF1E00);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FD7C21', endColorstr='#AF1E00', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#FD7C21, endColorstr=#AF1E00, GradientType=0)";
+}
+
+.arptemplate_9.arpmulticolor .arp_allcolumnsdiv .ArpPricingTableColumnWrapper .column_5{
+	background: #00C140;
+	background-color:#00C140;
+	background-image:-moz-linear-gradient(top, #00C140, #00A3A2);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#00C140), to(#00A3A2));
+	background-image:-webkit-linear-gradient(top, #00C140, #00A3A2);
+	background-image:-o-linear-gradient(top, #00C140, #00A3A2);
+	background-image:linear-gradient(to bottom, #00C140, #00A3A2);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C140', endColorstr='#00A3A2', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#00C140, endColorstr=#00A3A2, GradientType=0)";
+}
+
+/*
+	Template : arptemplate_9
+	Color : Lime Green
+*/
+
+.arptemplate_9.arplimegreen .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #00C03F;
+	background-color:#00C03F;
+	background-image:-moz-linear-gradient(top, #00C03F, #00A3A2);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#00C03F), to(#00A3A2));
+	background-image:-webkit-linear-gradient(top, #00C03F, #00A3A2);
+	background-image:-o-linear-gradient(top, #00C03F, #00A3A2);
+	background-image:linear-gradient(to bottom, #00C03F, #00A3A2);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C03F', endColorstr='#00A3A2', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#00C03F, endColorstr=#00A3A2, GradientType=0)";
+}
+
+/*
+	Template : arptemplate_9
+	Color : Dark Yellow
+*/
+
+.arptemplate_9.arpdarkyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #ADBB5A;
+	background-color:#ADBB5A;
+	background-image:-moz-linear-gradient(top, #ADBB5A, #F95D5E);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ADBB5A), to(#F95D5E));
+	background-image:-webkit-linear-gradient(top, #ADBB5A, #F95D5E);
+	background-image:-o-linear-gradient(top, #ADBB5A, #F95D5E);
+	background-image:linear-gradient(to bottom, #ADBB5A, #F95D5E);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ADBB5A', endColorstr='#F95D5E', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#00C03F, endColorstr=#F95D5E, GradientType=0)";
+}
+
+/*
+	Template : arptemplate_9
+	Color: Dark Violet
+*/
+
+.arptemplate_9.arpdarkviolet .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #7200AD;
+	background-color:#7200AD;
+	background-image:-moz-linear-gradient(top, #7200AD, #2672EA);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#7200AD), to(#2672EA));
+	background-image:-webkit-linear-gradient(top, #7200AD, #2672EA);
+	background-image:-o-linear-gradient(top, #7200AD, #2672EA);
+	background-image:linear-gradient(to bottom, #7200AD, #2672EA);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7200AD', endColorstr='#2672EA', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#7200AD, endColorstr=#2672EA, GradientType=0)";
+}
+
+/*
+	Template : arptemplate_9
+	Color: Dark Red
+*/
+
+.arptemplate_9.arpdarkred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #AF1D04;
+	background-color:#AF1D04;
+	background-image:-moz-linear-gradient(top, #AF1D04, #F1AE05);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#AF1D04), to(#F1AE05));
+	background-image:-webkit-linear-gradient(top, #AF1D04, #F1AE05);
+	background-image:-o-linear-gradient(top, #AF1D04, #F1AE05);
+	background-image:linear-gradient(to bottom, #AF1D04, #F1AE05);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AF1D04', endColorstr='#F1AE05', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#AF1D04, endColorstr=#F1AE05, GradientType=0)";
+}
+
+/*
+	Template : arptemplate_9
+	Color: Light Orange
+*/
+
+.arptemplate_9.arplightorange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #F2B10F;
+	background-color:#F2B10F;
+	background-image:-moz-linear-gradient(top, #F2B10F, #A1B400);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#F2B10F), to(#A1B400));
+	background-image:-webkit-linear-gradient(top, #F2B10F, #A1B400);
+	background-image:-o-linear-gradient(top, #F2B10F, #A1B400);
+	background-image:linear-gradient(to bottom, #F2B10F, #A1B400);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F2B10F', endColorstr='#A1B400', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#F2B10F, endColorstr=#A1B400, GradientType=0)";
+}
+
+
+/*
+	Template : arptemplate_9
+	Color: Orange
+*/
+
+.arptemplate_9.arporange .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #FD7C21;
+	background-color:#FD7C21;
+	background-image:-moz-linear-gradient(top, #FD7C21, #B21E00);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#B21E00), to(#A1B400));
+	background-image:-webkit-linear-gradient(top, #FD7C21, #B21E00);
+	background-image:-o-linear-gradient(top, #FD7C21, #B21E00);
+	background-image:linear-gradient(to bottom, #FD7C21, #B21E00);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FD7C21', endColorstr='#B21E00', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#FD7C21, endColorstr=#B21E00, GradientType=0)";
+}
+
+/*
+	Template : arptemplate_9
+	Color: Cyan
+*/
+
+.arptemplate_9.arpcyan .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #03B88B;
+	background-color:#03B88B;
+	background-image:-moz-linear-gradient(top, #03B88B, #A5650E);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#03B88B), to(#A5650E));
+	background-image:-webkit-linear-gradient(top, #03B88B, #A5650E);
+	background-image:-o-linear-gradient(top, #03B88B, #A5650E);
+	background-image:linear-gradient(to bottom, #03B88B, #A5650E);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03B88B', endColorstr='#A5650E', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#03B88B, endColorstr=#A5650E, GradientType=0)";
+}
+
+/*
+	Template : arptemplate_9
+	Color: Magenta
+*/
+
+.arptemplate_9.arpmagenta .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #B037C2;
+	background-color:#B037C2;
+	background-image:-moz-linear-gradient(top, #B037C2, #DA7A47);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#B037C2), to(#DA7A47));
+	background-image:-webkit-linear-gradient(top, #B037C2, #DA7A47);
+	background-image:-o-linear-gradient(top, #B037C2, #DA7A47);
+	background-image:linear-gradient(to bottom, #B037C2, #DA7A47);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B037C2', endColorstr='#DA7A47', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#B037C2, endColorstr=#DA7A47, GradientType=0)";
+}
+
+
+/*
+	Template : arptemplate_9
+	Color: Yellow
+*/
+
+.arptemplate_9.arpyellow .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #CEBA63;
+	background-color:#CEBA63;
+	background-image:-moz-linear-gradient(top, #CEBA63, #37B0C5);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#CEBA63), to(#37B0C5));
+	background-image:-webkit-linear-gradient(top, #CEBA63, #37B0C5);
+	background-image:-o-linear-gradient(top, #CEBA63, #37B0C5);
+	background-image:linear-gradient(to bottom, #CEBA63, #37B0C5);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CEBA63', endColorstr='#37B0C5', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#CEBA63, endColorstr=#37B0C5, GradientType=0)";
+}
+
+
+/*
+	Template : arptemplate_9
+	Color: Yellow
+*/
+
+.arptemplate_9.arpred .arp_allcolumnsdiv .ArpPricingTableColumnWrapper:not(.maincaptioncolumn) .arpplan{
+	background: #AC113D;
+	background-color:#AC113D;
+	background-image:-moz-linear-gradient(top, #AC113D, #4D0062);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#AC113D), to(#4D0062));
+	background-image:-webkit-linear-gradient(top, #AC113D, #4D0062);
+	background-image:-o-linear-gradient(top, #AC113D, #4D0062);
+	background-image:linear-gradient(to bottom, #AC113D, #4D0062);
+	background-repeat:repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AC113D', endColorstr='#4D0062', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#AC113D, endColorstr=#4D0062, GradientType=0)";
+}
+
+/* Hover Effect Change */
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover,
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight{
+	margin-bottom:0px;
+	padding:0px;
+}
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpplan,
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpplan{
+	box-shadow:12px 0 15px -4px rgba(0, 0, 0, 0.2), -12px 0 8px -4px rgba(0, 0, 0, 0.2);
+	margin-top:20px;
+	top:-20px;
+}
+
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn):hover .arpcolumnfooter,
+.arptemplate_9 #ArpPricingTableColumns .ArpPricingTableColumnWrapper.hover_effect.no_animation:not(.maincaptioncolumn).column_highlight .arpcolumnfooter{
+	height:140px;
+	padding:45px 0 0;
+}
