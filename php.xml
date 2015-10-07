@@ -1,0 +1,8 @@
+<application>
+  <component name="PhpAutoImport" auto_import_file_scope="true" />
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration />
+    </phpcs_settings>
+  </component>
+</application>
