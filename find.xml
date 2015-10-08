@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '/home/jazzman/www/generators/gradient/stylesheets'" />
-    <option name="defaultScopeName" value="Directory '/home/jazzman/www/generators/gradient/stylesheets'" />
+    <option name="customScope" value="File '/home/jazzman/www/awd-development-site/build/js/test.js'" />
+    <option name="defaultScopeName" value="File '/home/jazzman/www/awd-development-site/build/js/test.js'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '/home/jazzman/www/generators/gradient/stylesheets'" />
+    <option name="SEARCH_SCOPE" value="File '/home/jazzman/www/awd-development-site/build/js/test.js'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
