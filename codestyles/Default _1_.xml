@@ -137,7 +137,6 @@
     <option name="SPACE_AROUND_LOGICAL_OPERATORS" value="false" />
     <option name="SPACE_AROUND_EQUALITY_OPERATORS" value="false" />
     <option name="SPACE_AROUND_RELATIONAL_OPERATORS" value="false" />
-    <option name="SPACE_AROUND_BITWISE_OPERATORS" value="false" />
     <option name="SPACE_AROUND_ADDITIVE_OPERATORS" value="false" />
     <option name="SPACE_AROUND_MULTIPLICATIVE_OPERATORS" value="false" />
     <option name="SPACE_AROUND_SHIFT_OPERATORS" value="false" />
