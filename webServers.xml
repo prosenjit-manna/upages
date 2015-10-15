@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8b9bde36-a778-4a11-8ef8-a0e4b2f943a0" name="ok-karpatu" url="http://helperua.ftp.ukraine.com.ua">
+        <fileTransfer host="helperua.ftp.ukraine.com.ua" port="21" rootFolder="/ok-karpatu.com/www" password="dffddffcdfe6dfc4dfdfdfcbdf9edffd" username="helperua_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
