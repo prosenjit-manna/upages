@@ -6,4 +6,18 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/www/lampstack" />
     </exec>
   </tool>
+  <tool name="restart apache" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/www/lampstack/ctlscript.sh" />
+      <option name="PARAMETERS" value="restart apache" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/www/lampstack" />
+    </exec>
+  </tool>
+  <tool name="stop apache" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/www/lampstack/ctlscript.sh" />
+      <option name="PARAMETERS" value="stop apache" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/www/lampstack" />
+    </exec>
+  </tool>
 </toolSet>
