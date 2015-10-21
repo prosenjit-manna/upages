@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="start apache" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/www/lampstack/ctlscript.sh" />
+      <option name="PARAMETERS" value="start apache" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/www/lampstack" />
+    </exec>
+  </tool>
+</toolSet>
