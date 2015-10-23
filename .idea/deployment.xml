@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="upages_dev">
+  <component name="PublishConfigData" autoUpload="Always" serverName="upages_dev" autoUploadExternalChanges="true">
     <serverData>
       <paths name="upages_dev">
         <serverdata>
@@ -11,12 +11,11 @@
             <excludedPath path="/wp-content/themes/twentyfifteen" />
             <excludedPath path="/wp-content/themes/twentyfourteen" />
             <excludedPath path="/wp-content/themes/twentythirteen" />
-            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentyfifteen" />
-            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentyfourteen" />
-            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentythirteen" />
+            <excludedPath local="true" path="$PROJECT_DIR$/local-conf" />
           </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

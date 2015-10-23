@@ -231,6 +231,18 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 	echo '<script type="text/javascript">'.stripslashes($javo_tso->get('custom_js', '')).'</script>';
 ?>
 <?php wp_footer(); ?>
+
+<?php
+echo '<h1>DEBUG SAVEQUERIES</h1><br><hr>';
+
+if ( current_user_can( 'administrator' ) ) {
+	global $wpdb;
+	echo "<pre>";
+	print_r( $wpdb->queries );
+	echo "</pre>";
+}
+
+?>
 </div> <!-- / #page-style -->
 </body>
 </html>
